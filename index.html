@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Files</title>
+<style>
+  :root{
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  *,*::before,*::after{box-sizing:inherit}
+  html,body{margin:0;min-height:100%}
+  body{font:13px/1.45 Tahoma,Verdana,Geneva,"DejaVu Sans",sans-serif;background:#cfcac0;color:#1c1a17;transition:background .15s}
+  body.page-dark{background:#141312}
+  body.page-dark .switch-theme{color:#8d8163}
+  body.page-dark .switch-theme button{color:#f2e3ad}
+
+  /* ---------- Theme picker ---------- */
+  #picker{max-width:720px;margin:0 auto;padding:40px 18px}
+  #picker h1{font-size:20px;margin:0 0 4px}
+  #picker p.sub{color:#555;margin:0 0 26px;font-size:13px}
+  .picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .pick{
+    border:1px solid #c9c4b8;background:#fff;border-radius:8px;padding:14px;
+    cursor:pointer;text-align:left;font:inherit;color:inherit;
+  }
+  .pick:hover{border-color:#2f5d8a;box-shadow:0 0 0 2px rgba(47,93,138,.15)}
+  .pick .swatch{height:62px;border-radius:5px;margin-bottom:10px;background:#eee}
+  .pick .swatch.explorer{background:linear-gradient(135deg,#e7e3da,#fbfaf6)}
+  .pick .swatch.browser{background:linear-gradient(135deg,#dfe8f0,#fbfaf6)}
+  .pick .swatch.cards{background:linear-gradient(135deg,#1d1b18,#3a362e)}
+  .pick strong{display:block;font-size:14px;margin-bottom:3px}
+  .pick span{display:block;font-size:12px;color:#666}
+
+  /* ---------- App shell + shared "change theme" link ---------- */
+  #app{max-width:960px;margin:0 auto;padding:18px 14px 40px}
+  .switch-theme{
+    display:block;text-align:right;font-size:11px;color:#666;margin-bottom:8px;
+  }
+  .switch-theme button{
+    font:inherit;font-size:11px;background:none;border:0;color:#2f5d8a;
+    text-decoration:underline;cursor:pointer;padding:0;
+  }
+
+  /* ================= Theme: Explorer (retro tree) ================= */
+  #theme-explorer{
+    --chrome:#cfcac0;--face:#e7e3da;--paper:#fbfaf6;--ink:#1c1a17;--dim:#6c665c;
+    --line:#a8a296;--sel:#2f5d8a;--hi:#ffffff;--lo:#8e8880;
+  }
+  #theme-explorer .window{
+    background:var(--face);
+    border-top:2px solid var(--hi);border-left:2px solid var(--hi);
+    border-right:2px solid var(--lo);border-bottom:2px solid var(--lo);
+  }
+  #theme-explorer .titlebar{display:flex;align-items:baseline;gap:10px;padding:6px 10px;background:var(--sel);color:#fff}
+  #theme-explorer .titlebar h1{font-size:13px;font-weight:700;margin:0;letter-spacing:.02em}
+  #theme-explorer .titlebar span{font-size:11px;color:#c6d8e9}
+  #theme-explorer .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 10px;border-bottom:1px solid var(--line)}
+  #theme-explorer .toolbar button{
+    font:inherit;font-size:12px;padding:2px 9px;cursor:pointer;background:var(--face);color:var(--ink);
+    border-top:1px solid var(--hi);border-left:1px solid var(--hi);border-right:1px solid var(--lo);border-bottom:1px solid var(--lo);
+  }
+  #theme-explorer .toolbar button:active{border-color:var(--lo) var(--hi) var(--hi) var(--lo)}
+  #theme-explorer .toolbar .fill{flex:1 1 auto}
+  #theme-explorer input[type=search]{
+    font:inherit;padding:3px 6px;width:170px;background:var(--paper);color:var(--ink);
+    border-top:1px solid var(--lo);border-left:1px solid var(--lo);border-right:1px solid var(--hi);border-bottom:1px solid var(--hi);
+  }
+  #theme-explorer .scroll{overflow-x:auto}
+  #theme-explorer .head{display:flex;min-width:630px;background:var(--face);border-bottom:1px solid var(--line);font-weight:700;font-size:12px;padding:5px 10px}
+  #theme-explorer .head .n{flex:1 1 auto;min-width:0}
+  #theme-explorer .head .d{width:120px;flex:none}
+  #theme-explorer .head .s{width:70px;flex:none;text-align:right}
+  #theme-explorer .head .x{width:150px;flex:none;padding-left:14px}
+  #theme-explorer .head .z{width:82px;flex:none;text-align:right}
+  #theme-explorer .tree{min-width:630px;background:var(--paper)}
+  #theme-explorer .row{display:flex;align-items:baseline;padding:3px 10px;white-space:pre}
+  #theme-explorer .row:nth-child(even){background:#f3f1ea}
+  #theme-explorer .row:hover{background:#e3ecf5}
+  #theme-explorer .row .n{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+  #theme-explorer .row .d{width:120px;flex:none;color:var(--dim);font-size:12px}
+  #theme-explorer .row .s{width:70px;flex:none;text-align:right;color:var(--dim);font-size:12px}
+  #theme-explorer .row .x{width:150px;flex:none;padding-left:14px;color:var(--dim);font-size:12px;overflow:hidden;text-overflow:ellipsis}
+  #theme-explorer .row .z{width:82px;flex:none;text-align:right;font-size:12px}
+  #theme-explorer .guide{color:var(--line)}
+  #theme-explorer .toggle{font:inherit;background:none;border:0;padding:0;cursor:pointer;color:var(--dim)}
+  #theme-explorer .toggle:hover{color:var(--sel)}
+  #theme-explorer .icon{display:inline-block;width:1.15em;color:var(--dim)}
+  #theme-explorer .dir{color:var(--ink);font-weight:700}
+  #theme-explorer .file{color:var(--sel);text-decoration:none}
+  #theme-explorer .file:hover{text-decoration:underline}
+  #theme-explorer .nolink{color:var(--dim)}
+  #theme-explorer mark{background:#fff0a8;color:inherit}
+  #theme-explorer .zipbtn{font:inherit;font-size:11px;padding:0 6px;cursor:pointer;background:none;color:var(--sel);text-decoration:none;border:1px solid var(--line);display:inline-block}
+  #theme-explorer .zipbtn:hover{border-color:var(--sel)}
+  #theme-explorer .statusbar{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:space-between;padding:6px 10px;border-top:1px solid var(--line);font-size:11px;color:var(--dim)}
+  #theme-explorer .note{padding:26px 14px;text-align:center;color:var(--dim);background:var(--paper)}
+  #theme-explorer .note.bad{color:#8a2f2f}
+  @media (max-width:560px){
+    #theme-explorer .head .d,#theme-explorer .row .d{display:none}
+    #theme-explorer .head .x,#theme-explorer .row .x{display:none}
+    #theme-explorer .head .z,#theme-explorer .row .z{width:58px}
+  }
+
+  /* ================= Theme: Browser (table + breadcrumbs) ================= */
+  #theme-browser{
+    --chrome:#cfcac0;--face:#e7e3da;--paper:#fbfaf6;--ink:#1c1a17;--dim:#6c665c;
+    --line:#a8a296;--sel:#2f5d8a;--hi:#ffffff;--lo:#8e8880;
+  }
+  #theme-browser .window{background:var(--face);
+    border-top:2px solid var(--hi);border-left:2px solid var(--hi);
+    border-right:2px solid var(--lo);border-bottom:2px solid var(--lo);
+  }
+  #theme-browser .titlebar{display:flex;align-items:baseline;gap:10px;padding:6px 10px;background:var(--sel);color:#fff}
+  #theme-browser .titlebar h1{font-size:13px;font-weight:700;margin:0;letter-spacing:.02em}
+  #theme-browser .titlebar span{font-size:11px;color:#c6d8e9}
+  #theme-browser .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 10px;border-bottom:1px solid var(--line)}
+  #theme-browser .crumbs{flex:1 1 220px;min-width:0;font-size:12px;color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  #theme-browser .crumbs button{background:none;border:0;padding:0 1px;font:inherit;color:var(--sel);text-decoration:underline;cursor:pointer}
+  #theme-browser .crumbs .here{color:var(--ink)}
+  #theme-browser .zipbtn{
+    display:inline-block;font:inherit;font-size:11px;padding:0 6px;cursor:pointer;background:none;color:var(--sel);
+    text-decoration:none;border:1px solid var(--line);
+  }
+  #theme-browser .zipbtn:hover{border-color:var(--sel)}
+  #theme-browser input[type=search]{
+    font:inherit;padding:3px 6px;width:170px;background:var(--paper);color:var(--ink);
+    border-top:1px solid var(--lo);border-left:1px solid var(--lo);border-right:1px solid var(--hi);border-bottom:1px solid var(--hi);
+  }
+  #theme-browser .scroll{overflow-x:auto}
+  #theme-browser table{width:100%;border-collapse:collapse;background:var(--paper);min-width:420px}
+  #theme-browser th,#theme-browser td{text-align:left;padding:5px 10px;white-space:nowrap}
+  #theme-browser th{position:sticky;top:0;background:var(--face);border-bottom:1px solid var(--line);font-weight:700;font-size:12px;cursor:pointer}
+  #theme-browser th.num,#theme-browser td.num{text-align:right}
+  #theme-browser th span{color:var(--dim);font-weight:400}
+  #theme-browser tbody tr:nth-child(even){background:#f3f1ea}
+  #theme-browser tbody tr:hover{background:#e3ecf5}
+  #theme-browser td.name{white-space:normal;word-break:break-word;min-width:180px}
+  #theme-browser td.name a,#theme-browser td.name button{color:var(--sel);font:inherit;background:none;border:0;padding:0;text-decoration:none;cursor:pointer;text-align:left}
+  #theme-browser td.name a:hover,#theme-browser td.name button:hover{text-decoration:underline}
+  #theme-browser .icon{display:inline-block;width:1.15em;color:var(--dim)}
+  #theme-browser .desc{display:block;color:var(--dim);font-size:11px}
+  #theme-browser td.size,#theme-browser td.date{color:var(--dim);font-size:12px}
+  #theme-browser .statusbar{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:space-between;padding:6px 10px;border-top:1px solid var(--line);font-size:11px;color:var(--dim)}
+  #theme-browser .note{padding:26px 14px;text-align:center;color:var(--dim);background:var(--paper)}
+  #theme-browser .note.bad{color:#8a2f2f}
+  @media (max-width:560px){ #theme-browser .date{display:none} }
+  @media (prefers-reduced-motion:no-preference){
+    #theme-browser .pulse{animation:b-pulse .6s ease-out}
+    @keyframes b-pulse{from{background:#dbe7f4}to{background:transparent}}
+  }
+
+  /* ================= Theme: Retro (dark tree) ================= */
+  #theme-cards{
+    --bg:#1d1b18;--panel:#141312;--ink:#e8d9a8;--dim:#8d8163;--rule:#3a362e;--hot:#f2e3ad;--row:#262319;
+  }
+  #theme-cards{background:var(--bg);color:var(--ink);font-family:"DejaVu Sans Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:13px;line-height:1.5}
+  #theme-cards .frame{background:var(--panel);border:1px solid var(--rule)}
+  #theme-cards .head{display:flex;align-items:center;padding:5px 10px;border-bottom:1px solid var(--rule);color:var(--dim);font-size:13px}
+  #theme-cards .head .n{flex:1 1 auto;min-width:0}
+  #theme-cards .head .d{width:130px;flex:none}
+  #theme-cards .head .s{width:80px;flex:none;text-align:right}
+  #theme-cards .head .x{width:170px;flex:none;padding-left:18px}
+  #theme-cards .head .z{width:76px;flex:none;text-align:right}
+  #theme-cards .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:6px 10px;border-bottom:1px solid var(--rule)}
+  #theme-cards .bar input{font:inherit;font-size:13px;padding:2px 6px;width:170px;background:var(--bg);color:var(--ink);border:1px solid var(--rule)}
+  #theme-cards .bar button{font:inherit;font-size:12px;padding:2px 9px;cursor:pointer;background:var(--bg);color:var(--ink);border:1px solid var(--rule)}
+  #theme-cards .bar button:hover{color:var(--hot);border-color:var(--dim)}
+  #theme-cards .bar .fill{flex:1 1 auto}
+  #theme-cards .scroll{overflow-x:auto}
+  #theme-cards .tree{min-width:640px}
+  #theme-cards .row{display:flex;align-items:baseline;padding:1px 10px;white-space:pre}
+  #theme-cards .row:hover{background:var(--row)}
+  #theme-cards .row .n{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+  #theme-cards .row .d{width:130px;flex:none;color:var(--dim);font-size:13px}
+  #theme-cards .row .s{width:80px;flex:none;text-align:right;color:var(--dim);font-size:13px}
+  #theme-cards .row .x{width:170px;flex:none;padding-left:18px;color:var(--dim);font-size:13px;overflow:hidden;text-overflow:ellipsis}
+  #theme-cards .row .z{width:76px;flex:none;text-align:right;font-size:12px}
+  #theme-cards .guide{color:var(--rule)}
+  #theme-cards .toggle{font:inherit;background:none;border:0;padding:0;cursor:pointer;color:var(--dim)}
+  #theme-cards .toggle:hover{color:var(--hot)}
+  #theme-cards .dir{color:var(--ink)}
+  #theme-cards .file{color:var(--ink);text-decoration:none}
+  #theme-cards .file:hover{color:var(--hot);text-decoration:underline}
+  #theme-cards .nolink{color:var(--dim)}
+  #theme-cards mark{background:none;color:var(--hot);text-decoration:underline}
+  #theme-cards .zipbtn{
+    display:inline-block;font:inherit;font-size:11px;padding:0 6px;cursor:pointer;background:none;color:var(--ink);
+    text-decoration:none;border:1px solid var(--rule);
+  }
+  #theme-cards .zipbtn:hover{color:var(--hot);border-color:var(--dim)}
+  #theme-cards .foot{display:flex;flex-wrap:wrap;gap:4px 16px;justify-content:space-between;padding:5px 10px;border-top:1px solid var(--rule);color:var(--dim);font-size:12px}
+  #theme-cards .note{padding:22px 10px;text-align:center;color:var(--dim)}
+  #theme-cards .note.bad{color:#e0a58f}
+  @media (max-width:560px){
+    #theme-cards .head .d,#theme-cards .row .d{display:none}
+    #theme-cards .head .x,#theme-cards .row .x{display:none}
+    #theme-cards .head .z,#theme-cards .row .z{width:54px}
+  }
+</style>
+
+</head>
+<body>
+
+<div id="picker">
+  <h1>Files</h1>
+  <p class="sub">Pick how you'd like to browse. You can change this anytime.</p>
+  <div class="picks">
+    <button type="button" class="pick" data-theme="explorer">
+      <div class="swatch explorer"></div>
+      <strong>Explorer</strong>
+      <span>Expandable folder tree, Windows-style</span>
+    </button>
+    <button type="button" class="pick" data-theme="browser">
+      <div class="swatch browser"></div>
+      <strong>Browser</strong>
+      <span>Sortable table with breadcrumb folders</span>
+    </button>
+    <button type="button" class="pick" data-theme="cards">
+      <div class="swatch cards"></div>
+      <strong>Retro</strong>
+      <span>Dark amber terminal-style folder tree</span>
+    </button>
+  </div>
+</div>
+
+<div id="app" hidden>
+  <div class="switch-theme"><button type="button" id="changeTheme">Change theme</button></div>
+  <div id="theme-explorer" hidden></div>
+  <div id="theme-browser" hidden></div>
+  <div id="theme-cards" hidden></div>
+</div>
+
+<script>
+const REFRESH_MS = 5 * 60 * 1000;
+const STORAGE_KEY = 'files-theme';
+
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
+  ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function bytes(n) {
+  if (n === null || n === undefined) return '';
+  const u = ['B', 'KB', 'MB', 'GB', 'TB'];
+  let i = 0;
+  while (n >= 1024 && i < u.length - 1) { n /= 1024; i++; }
+  return (i === 0 ? Math.round(n) : n.toFixed(n < 10 ? 1 : 0)) + ' ' + u[i];
+}
+
+function whenShort(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (isNaN(d)) return '';
+  const m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${String(d.getDate()).padStart(2,'0')}-${m[d.getMonth()]}-${d.getFullYear()}`;
+}
+
+function whenLong(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return isNaN(d) ? '' : d.toLocaleString([], { year:'numeric', month:'short', day:'2-digit', hour:'2-digit', minute:'2-digit' });
+}
+
+function extIcon(name) {
+  const ext = (name.split('.').pop() || '').toLowerCase();
+  const map = {
+    pdf:'📕', doc:'📄', docx:'📄', txt:'📄', md:'📄',
+    py:'🐍', js:'📜', ts:'📜', html:'🌐', css:'🎨', json:'🗂️',
+    zip:'🗜️', rar:'🗜️', png:'🖼️', jpg:'🖼️', jpeg:'🖼️', gif:'🖼️',
+    mp3:'🎵', wav:'🎵', mp4:'🎬', csv:'📊', xlsx:'📊', ppt:'📈', pptx:'📈',
+  };
+  return map[ext] || '📄';
+}
+
+// ---------------- shared data ----------------
+const state = { files: [], rootZip: null, generated: null, nextAt: Date.now() + REFRESH_MS };
+let activeTheme = null;
+
+async function loadData() {
+  try {
+    const res = await fetch('files.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    state.files = data.files || [];
+    state.rootZip = data.rootZip || null;
+    state.generated = data.generated || null;
+    state.error = null;
+  } catch (err) {
+    state.error = err;
+  }
+  state.nextAt = Date.now() + REFRESH_MS;
+  if (activeTheme) THEMES[activeTheme].render();
+}
+
+// ================= Theme: Explorer =================
+const Explorer = (() => {
+  const root = document.getElementById('theme-explorer');
+  let tree = { name: 'Index of /', folder: true, children: [], key: '' };
+  let open = new Set(['']);
+
+  function html() {
+    root.innerHTML = `
+      <div class="window">
+        <div class="titlebar"><h1>Files</h1><span id="ex-count"></span></div>
+        <div class="toolbar">
+          <button type="button" id="ex-all">Expand all</button>
+          <button type="button" id="ex-none">Collapse all</button>
+          <span class="fill"></span>
+          <input type="search" id="ex-q" placeholder="Filter by name" aria-label="Filter by name">
+        </div>
+        <div class="scroll">
+          <div class="head">
+            <span class="n">Name</span><span class="d">Date modified</span>
+            <span class="s">Size</span><span class="x">Description</span><span class="z">Download</span>
+          </div>
+          <div class="tree" id="ex-tree"></div>
+        </div>
+        <div id="ex-note" class="note">Loading…</div>
+        <div class="statusbar"><span id="ex-stamp"></span><span id="ex-next"></span></div>
+      </div>`;
+
+    root.querySelector('#ex-tree').addEventListener('click', (e) => {
+      const t = e.target.closest('.toggle');
+      if (!t) return;
+      const key = t.dataset.key;
+      open.has(key) ? open.delete(key) : open.add(key);
+      draw();
+    });
+    root.querySelector('#ex-all').addEventListener('click', () => { open = new Set(everyFolder(tree)); draw(); });
+    root.querySelector('#ex-none').addEventListener('click', () => { open = new Set(['']); draw(); });
+    root.querySelector('#ex-q').addEventListener('input', draw);
+  }
+
+  function build(files) {
+    const t = { name: 'Index of /', folder: true, children: [], key: '' };
+    const folders = new Map([['', t]]);
+    for (const f of files.filter((f) => f.folder)) {
+      const key = [...(f.path || []), f.name].join('/');
+      folders.set(key, { ...f, key, children: [] });
+    }
+    for (const f of files) {
+      const parentKey = (f.path || []).join('/');
+      const parent = folders.get(parentKey) || t;
+      parent.children.push(f.folder
+        ? folders.get([...(f.path || []), f.name].join('/'))
+        : { ...f, key: [...(f.path || []), f.name].join('/'), children: null });
+    }
+    const sortFn = (node) => {
+      if (!node.children) return;
+      node.children.sort((a, b) => {
+        if (a.folder !== b.folder) return a.folder ? -1 : 1;
+        return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
+      });
+      node.children.forEach(sortFn);
+    };
+    sortFn(t);
+    return t;
+  }
+
+  function matches(node, q) {
+    if (!q) return true;
+    if (node.name.toLowerCase().includes(q)) return true;
+    return (node.children || []).some((c) => matches(c, q));
+  }
+
+  function rows(node, prefix, isLast, depth, q, out) {
+    const expanded = open.has(node.key) || (q && depth > 0);
+    const kids = (node.children || []).filter((c) => matches(c, q));
+    if (depth > 0) out.push({ node, prefix, isLast, expanded, hasKids: !!node.children });
+    if (node.children && (expanded || depth === 0)) {
+      const nextPrefix = depth > 0 ? prefix + (isLast ? '    ' : '│   ') : '';
+      kids.forEach((c, i) => rows(c, nextPrefix, i === kids.length - 1, depth + 1, q, out));
+    }
+  }
+
+  function mark(name, q) {
+    const safe = esc(name);
+    if (!q) return safe;
+    const i = name.toLowerCase().indexOf(q);
+    if (i < 0) return safe;
+    return esc(name.slice(0, i)) + '<mark>' + esc(name.slice(i, i + q.length)) + '</mark>' + esc(name.slice(i + q.length));
+  }
+
+  function countFiles(node) {
+    if (!node.children) return 1;
+    return node.children.reduce((n, c) => n + countFiles(c), 0);
+  }
+
+  function everyFolder(node, out = []) {
+    if (node.children) { out.push(node.key); node.children.forEach((c) => everyFolder(c, out)); }
+    return out;
+  }
+
+  function draw() {
+    const qEl = root.querySelector('#ex-q');
+    const q = qEl.value.trim().toLowerCase();
+    const out = [];
+    rows(tree, '', true, 0, q, out);
+
+    const rootOpen = open.has('');
+    const head =
+      `<div class="row"><span class="n">` +
+      `<button class="toggle" type="button" data-key="" aria-expanded="${rootOpen}">${rootOpen ? '−' : '+'}</button> ` +
+      `<span class="icon">${rootOpen ? '▾' : '▸'}</span><span class="dir">${esc(tree.name)}</span>` +
+      `</span><span class="d"></span><span class="s"></span><span class="x"></span>` +
+      `<span class="z">${state.rootZip ? `<a class="zipbtn" href="${esc(state.rootZip)}">zip</a>` : ''}</span></div>`;
+
+    const body = out.map(({ node, prefix, isLast, expanded, hasKids }) => {
+      const guide = `<span class="guide">${prefix}${isLast ? '└── ' : '├── '}</span>`;
+      let label;
+      if (hasKids) {
+        label = `<button class="toggle" type="button" data-key="${esc(node.key)}" aria-expanded="${expanded}">${expanded ? '−' : '+'}</button> ` +
+                `<span class="icon">${expanded ? '▾' : '▸'}</span><span class="dir">${mark(node.name, q)}</span>`;
+      } else if (node.downloadUrl) {
+        label = `<span class="icon"> </span><a class="file" href="${esc(node.downloadUrl)}">${mark(node.name, q)}</a>`;
+      } else {
+        label = `<span class="icon"> </span><span class="nolink">${mark(node.name, q)}</span>`;
+      }
+      const zip = hasKids && node.zipAsset ? `<a class="zipbtn" href="${esc(node.zipAsset)}">zip</a>` : '';
+      return `<div class="row"><span class="n">${guide}${label}</span>` +
+        `<span class="d">${whenShort(node.modified)}</span>` +
+        `<span class="s">${node.folder ? '' : bytes(node.size)}</span>` +
+        `<span class="x">${esc(node.description || '')}</span>` +
+        `<span class="z">${zip}</span></div>`;
+    }).join('');
+
+    root.querySelector('#ex-tree').innerHTML = rootOpen || q ? head + body : head;
+
+    const files = countFiles(tree);
+    root.querySelector('#ex-count').textContent = files + (files === 1 ? ' file' : ' files');
+    root.querySelector('#ex-stamp').textContent = state.generated ? 'List updated ' + whenLong(state.generated) : '';
+
+    const note = root.querySelector('#ex-note');
+    const bad = !!state.error;
+    note.className = 'note' + (bad ? ' bad' : '');
+    note.hidden = !bad && out.length > 0;
+    note.textContent = bad ? 'Could not load the file list. It will try again shortly.'
+      : (q ? 'Nothing matches that name.' : 'Nothing here yet.');
+    tickInto('#ex-next', root);
+  }
+
+  function render() {
+    tree = build(state.files);
+    draw();
+  }
+
+  return { mount() { html(); render(); }, render };
+})();
+
+// ================= Theme: Browser =================
+const Browser = (() => {
+  const root = document.getElementById('theme-browser');
+  let here = [];
+  let sort = { key: 'name', dir: 1 };
+
+  function html() {
+    root.innerHTML = `
+      <div class="window">
+        <div class="titlebar"><h1>Files</h1><span id="br-count"></span></div>
+        <div class="toolbar">
+          <nav class="crumbs" id="br-crumbs" aria-label="Folder path"></nav>
+          <a class="zipbtn" id="br-zip" href="#" hidden>Download folder as zip</a>
+          <input type="search" id="br-q" placeholder="Filter by name" aria-label="Filter by name">
+        </div>
+        <div class="scroll">
+          <table>
+            <thead><tr>
+              <th data-sort="name" scope="col">Name</th>
+              <th data-sort="modified" class="date" scope="col">Date modified</th>
+              <th data-sort="size" class="num" scope="col">Size</th>
+              <th class="num" scope="col">Zip</th>
+            </tr></thead>
+            <tbody id="br-rows"></tbody>
+          </table>
+        </div>
+        <div id="br-note" class="note">Loading…</div>
+        <div class="statusbar"><span id="br-stamp"></span><span id="br-next"></span></div>
+      </div>`;
+
+    root.addEventListener('click', (e) => {
+      const open = e.target.closest('[data-open]');
+      if (open) { here = [...here, open.dataset.open]; root.querySelector('#br-q').value = ''; draw(); return; }
+      const crumb = e.target.closest('[data-crumb]');
+      if (crumb) { here = here.slice(0, Number(crumb.dataset.crumb)); draw(); }
+    });
+    root.querySelectorAll('th[data-sort]').forEach((th) => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        sort = { key, dir: sort.key === key ? -sort.dir : 1 };
+        root.querySelectorAll('th[data-sort] span').forEach((s) => s.remove());
+        th.insertAdjacentHTML('beforeend', `<span> ${sort.dir === 1 ? '▲' : '▼'}</span>`);
+        draw();
+      });
+    });
+    root.querySelector('#br-q').addEventListener('input', () => draw());
+  }
+
+  function samePath(a, b) { return a.length === b.length && a.every((v, i) => v === b[i]); }
+
+  function currentFolderZip() {
+    if (!here.length) return state.rootZip;
+    const key = here.join('/');
+    const folderEntry = state.files.find((f) => f.folder && [...(f.path||[]), f.name].join('/') === key);
+    return folderEntry?.zipAsset || null;
+  }
+
+  function draw() {
+    const q = root.querySelector('#br-q').value.trim().toLowerCase();
+    let rows = state.files.filter((f) => samePath(f.path || [], here));
+    if (q) rows = state.files.filter((f) => !f.folder && f.name.toLowerCase().includes(q));
+
+    rows.sort((a, b) => {
+      if (a.folder !== b.folder) return a.folder ? -1 : 1;
+      let out;
+      if (sort.key === 'size') out = (a.size || 0) - (b.size || 0);
+      else if (sort.key === 'modified') out = new Date(a.modified || 0) - new Date(b.modified || 0);
+      else out = a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
+      return out * sort.dir;
+    });
+
+    root.querySelector('#br-rows').innerHTML = rows.map((f) => {
+      const name = esc(f.name);
+      const label = f.folder
+        ? `<button type="button" data-open="${name}"><span class="icon">▸</span>${name}</button>`
+        : (f.downloadUrl
+            ? `<a href="${esc(f.downloadUrl)}"><span class="icon">·</span>${name}</a>`
+            : `<span><span class="icon">·</span>${name}</span>`);
+      const desc = f.description ? `<span class="desc">${esc(f.description)}</span>` : '';
+      const dl = !f.folder && f.downloadUrl ? `<a class="zipbtn" href="${esc(f.downloadUrl)}">zip</a>`
+        : (f.folder && f.zipAsset ? `<a class="zipbtn" href="${esc(f.zipAsset)}">zip</a>` : '');
+      return `<tr><td class="name">${label}${desc}</td><td class="date">${whenLong(f.modified)}</td>` +
+        `<td class="size num">${f.folder ? '' : bytes(f.size)}</td><td class="num">${dl}</td></tr>`;
+    }).join('');
+
+    const note = root.querySelector('#br-note');
+    const bad = !!state.error;
+    note.className = 'note' + (bad ? ' bad' : '');
+    note.hidden = !bad && rows.length > 0;
+    note.textContent = bad ? 'Could not load the file list. It will try again shortly.'
+      : (q ? 'Nothing matches that name.' : 'This folder is empty.');
+
+    const files = state.files.filter((f) => !f.folder).length;
+    root.querySelector('#br-count').textContent = files + (files === 1 ? ' file' : ' files');
+    root.querySelector('#br-stamp').textContent = state.generated ? 'List updated ' + whenLong(state.generated) : '';
+
+    const zipBtn = root.querySelector('#br-zip');
+    const zip = currentFolderZip();
+    zipBtn.hidden = !zip;
+    if (zip) zipBtn.href = zip;
+
+    crumbs();
+    tickInto('#br-next', root);
+  }
+
+  function crumbs() {
+    const parts = ['<button type="button" data-crumb="0">Home</button>'];
+    here.forEach((name, i) => {
+      parts.push(' / ');
+      parts.push(i === here.length - 1
+        ? `<span class="here">${esc(name)}</span>`
+        : `<button type="button" data-crumb="${i + 1}">${esc(name)}</button>`);
+    });
+    root.querySelector('#br-crumbs').innerHTML = parts.join('');
+  }
+
+  return { mount() { html(); draw(); }, render: draw };
+})();
+
+// ================= Theme: Retro (dark tree) =================
+const Cards = (() => {
+  const root = document.getElementById('theme-cards');
+  let tree = { name: 'Index of /', folder: true, children: [], key: '' };
+  let open = new Set(['']);
+
+  function html() {
+    root.innerHTML = `
+      <div class="frame">
+        <div class="head">
+          <span class="n">Name</span><span class="d">Date Modified</span>
+          <span class="s">Size</span><span class="x">Description</span><span class="z">Download</span>
+        </div>
+        <div class="bar">
+          <input type="search" id="rt-q" placeholder="find" aria-label="Find by name">
+          <button type="button" id="rt-all">expand all</button>
+          <button type="button" id="rt-none">collapse all</button>
+          <span class="fill"></span>
+          <span id="rt-count"></span>
+        </div>
+        <div class="scroll"><div class="tree" id="rt-tree"></div></div>
+        <div class="note" id="rt-note">Loading…</div>
+        <div class="foot"><span id="rt-stamp"></span><span id="rt-next"></span></div>
+      </div>`;
+
+    root.querySelector('#rt-tree').addEventListener('click', (e) => {
+      const t = e.target.closest('.toggle');
+      if (!t) return;
+      const key = t.dataset.key;
+      open.has(key) ? open.delete(key) : open.add(key);
+      draw();
+    });
+    root.querySelector('#rt-all').addEventListener('click', () => { open = new Set(everyFolder(tree)); draw(); });
+    root.querySelector('#rt-none').addEventListener('click', () => { open = new Set(['']); draw(); });
+    root.querySelector('#rt-q').addEventListener('input', draw);
+  }
+
+  function build(files) {
+    const t = { name: 'Index of /', folder: true, children: [], key: '' };
+    const folders = new Map([['', t]]);
+    for (const f of files.filter((f) => f.folder)) {
+      const key = [...(f.path || []), f.name].join('/');
+      folders.set(key, { ...f, key, children: [] });
+    }
+    for (const f of files) {
+      const parentKey = (f.path || []).join('/');
+      const parent = folders.get(parentKey) || t;
+      parent.children.push(f.folder
+        ? folders.get([...(f.path || []), f.name].join('/'))
+        : { ...f, key: [...(f.path || []), f.name].join('/'), children: null });
+    }
+    const sortFn = (node) => {
+      if (!node.children) return;
+      node.children.sort((a, b) => {
+        if (a.folder !== b.folder) return a.folder ? -1 : 1;
+        return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
+      });
+      node.children.forEach(sortFn);
+    };
+    sortFn(t);
+    return t;
+  }
+
+  function matches(node, q) {
+    if (!q) return true;
+    if (node.name.toLowerCase().includes(q)) return true;
+    return (node.children || []).some((c) => matches(c, q));
+  }
+
+  function rows(node, prefix, isLast, depth, q, out) {
+    const expanded = open.has(node.key) || (q && depth > 0);
+    const kids = (node.children || []).filter((c) => matches(c, q));
+    if (depth > 0) out.push({ node, prefix, isLast, expanded, hasKids: !!node.children });
+    if (node.children && (expanded || depth === 0)) {
+      const nextPrefix = depth > 0 ? prefix + (isLast ? '    ' : '│   ') : '';
+      kids.forEach((c, i) => rows(c, nextPrefix, i === kids.length - 1, depth + 1, q, out));
+    }
+  }
+
+  function mark(name, q) {
+    const safe = esc(name);
+    if (!q) return safe;
+    const i = name.toLowerCase().indexOf(q);
+    if (i < 0) return safe;
+    return esc(name.slice(0, i)) + '<mark>' + esc(name.slice(i, i + q.length)) + '</mark>' + esc(name.slice(i + q.length));
+  }
+
+  function countFiles(node) {
+    if (!node.children) return 1;
+    return node.children.reduce((n, c) => n + countFiles(c), 0);
+  }
+
+  function everyFolder(node, out = []) {
+    if (node.children) { out.push(node.key); node.children.forEach((c) => everyFolder(c, out)); }
+    return out;
+  }
+
+  function draw() {
+    const qEl = root.querySelector('#rt-q');
+    const q = qEl.value.trim().toLowerCase();
+    const out = [];
+    rows(tree, '', true, 0, q, out);
+
+    const rootOpen = open.has('');
+    const head =
+      `<div class="row"><span class="n">` +
+      `<button class="toggle" type="button" data-key="" aria-expanded="${rootOpen}">[${rootOpen ? '−' : '+'}]</button> ` +
+      `<span class="dir">${esc(tree.name)}</span>` +
+      `</span><span class="d"></span><span class="s"></span><span class="x"></span>` +
+      `<span class="z">${state.rootZip ? `<a class="zipbtn" href="${esc(state.rootZip)}">zip</a>` : ''}</span></div>`;
+
+    const body = out.map(({ node, prefix, isLast, expanded, hasKids }) => {
+      const guide = `<span class="guide">${prefix}${isLast ? '└── ' : '├── '}</span>`;
+      let label;
+      if (hasKids) {
+        label = `<button class="toggle" type="button" data-key="${esc(node.key)}" aria-expanded="${expanded}">[${expanded ? '−' : '+'}]</button> ` +
+                `<span class="dir">${mark(node.name, q)}/</span>`;
+      } else if (node.downloadUrl) {
+        label = `    <a class="file" href="${esc(node.downloadUrl)}">${mark(node.name, q)}</a>`;
+      } else {
+        label = `    <span class="nolink">${mark(node.name, q)}</span>`;
+      }
+      const zip = hasKids && node.zipAsset ? `<a class="zipbtn" href="${esc(node.zipAsset)}">zip</a>` : '';
+      return `<div class="row"><span class="n">${guide}${label}</span>` +
+        `<span class="d">${whenShort(node.modified)}</span>` +
+        `<span class="s">${node.folder ? '' : bytes(node.size)}</span>` +
+        `<span class="x">${esc(node.description || '')}</span>` +
+        `<span class="z">${zip}</span></div>`;
+    }).join('');
+
+    root.querySelector('#rt-tree').innerHTML = rootOpen || q ? head + body : head;
+
+    const files = countFiles(tree);
+    root.querySelector('#rt-count').textContent = files + (files === 1 ? ' file' : ' files');
+    root.querySelector('#rt-stamp').textContent = state.generated ? 'updated ' + whenLong(state.generated) : '';
+
+    const note = root.querySelector('#rt-note');
+    const bad = !!state.error;
+    note.className = 'note' + (bad ? ' bad' : '');
+    note.hidden = !bad && out.length > 0;
+    note.textContent = bad ? 'Could not read the file list. Retrying shortly.'
+      : (q ? 'No match.' : 'Nothing here yet.');
+    tickInto('#rt-next', root);
+  }
+
+  function render() {
+    tree = build(state.files);
+    draw();
+  }
+
+  return { mount() { html(); render(); }, render };
+})();
+
+const THEMES = { explorer: Explorer, browser: Browser, cards: Cards };
+
+function tickInto(sel, root) {
+  const el = root.querySelector(sel);
+  if (!el) return;
+  const left = Math.max(0, state.nextAt - Date.now());
+  el.textContent = `Checking again in ${Math.floor(left / 60000)}:` +
+    String(Math.floor((left % 60000) / 1000)).padStart(2, '0');
+}
+
+function showPicker() {
+  document.getElementById('picker').hidden = false;
+  document.getElementById('app').hidden = true;
+  document.body.classList.remove('page-dark');
+}
+
+function showTheme(name) {
+  activeTheme = name;
+  document.getElementById('picker').hidden = true;
+  const app = document.getElementById('app');
+  app.hidden = false;
+  document.body.classList.toggle('page-dark', name === 'cards');
+  ['explorer', 'browser', 'cards'].forEach((t) => {
+    const el = document.getElementById('theme-' + t);
+    el.hidden = t !== name;
+  });
+  const mod = THEMES[name];
+  if (!mod.mounted) { mod.mount(); mod.mounted = true; }
+  else mod.render();
+}
+
+document.querySelectorAll('.pick').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const t = btn.dataset.theme;
+    localStorage.setItem(STORAGE_KEY, t);
+    showTheme(t);
+  });
+});
+document.getElementById('changeTheme').addEventListener('click', () => {
+  localStorage.removeItem(STORAGE_KEY);
+  showPicker();
+});
+
+const saved = localStorage.getItem(STORAGE_KEY);
+if (saved && THEMES[saved]) showTheme(saved); else showPicker();
+
+loadData();
+setInterval(loadData, REFRESH_MS);
+setInterval(() => { if (activeTheme) THEMES[activeTheme].render(); }, 1000);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && Date.now() > state.nextAt) loadData();
+});
+</script>
+</body>
+</html>
