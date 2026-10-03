@@ -177,6 +177,70 @@
       "zipAsset": "https://uploadg.com/drive/s/10nEH6kykITyfh9UeDfOpwQ31mRWCr"
     },
     {
+      "id": 2592709,
+      "name": "Final Fantasy VII",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:39:49.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/KQTVA4i7uP3AHSFrNR60GgZM1pETjf"
+    },
+    {
+      "id": 2592751,
+      "name": "Final Fantasy VIII",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:46:01.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/jBJoEsjiLYAE3KLLkqAajO6HbDJOU7"
+    },
+    {
+      "id": 2592792,
+      "name": "Final Fantasy XI",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:51:28.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/Pkfpu3HPtZdd5VvRmg5ZKbyicFYIUQ"
+    },
+    {
+      "id": 2592828,
+      "name": "Grandia",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:52:19.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/FEKQq8C8CGf3lNbFTrKG78SkSyGWrS"
+    },
+    {
       "id": 2592336,
       "name": "Music",
       "folder": true,
@@ -210,7 +274,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:32:03.000000Z",
+      "modified": "2026-10-03T05:52:19.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/dkfVCQKiMCin4mVAsOcGE5VfY2mYWK"
     },
@@ -224,7 +288,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:32:03.000000Z",
+      "modified": "2026-10-03T05:52:19.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/fo8hAHtRwx7WgDnxC0PEMw8XmWbvbE"
     },
@@ -237,7 +301,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:32:03.000000Z",
+      "modified": "2026-10-03T05:52:19.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/w3HgGghk0bsCwp6aXZbx80vUnSej7O"
     },
@@ -766,6 +830,159 @@
       "downloadUrl": "https://uploadg.com/drive/s/RlhW8dsNEstWA58pVqBFEScx0rZKTF"
     },
     {
+      "id": 2592793,
+      "name": "Final Fantasy IX (USA) (Disc 1) (Rev 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 740715360,
+      "extension": "bin",
+      "modified": "2026-10-03T05:47:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/mvic74Su51bUoB7qnUVmiujEzpS0DC"
+    },
+    {
+      "id": 2592794,
+      "name": "Final Fantasy IX (USA) (Disc 1) (Rev 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 105,
+      "extension": "cue",
+      "modified": "2026-10-03T05:47:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/sGUg0gRMEHnsR0WxP5s016iajRTBRn"
+    },
+    {
+      "id": 2592811,
+      "name": "Final Fantasy IX (USA) (Disc 2) (Rev 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 689004288,
+      "extension": "bin",
+      "modified": "2026-10-03T05:48:39.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/uzaoEzjaVfLFTQtjXpflJFSZ6uGAzQ"
+    },
+    {
+      "id": 2592812,
+      "name": "Final Fantasy IX (USA) (Disc 2) (Rev 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 105,
+      "extension": "cue",
+      "modified": "2026-10-03T05:48:47.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/loONdmKgfuLfTXVkg7MEmEg3hhHiwp"
+    },
+    {
+      "id": 2592815,
+      "name": "Final Fantasy IX (USA) (Disc 3) (Rev 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 729755040,
+      "extension": "bin",
+      "modified": "2026-10-03T05:50:08.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/uimhBGUVjqsxnMBKjrg38meD48YKEQ"
+    },
+    {
+      "id": 2592816,
+      "name": "Final Fantasy IX (USA) (Disc 3) (Rev 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 105,
+      "extension": "cue",
+      "modified": "2026-10-03T05:50:08.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/xj1zLnm2t8H4hg8hIEiNChngjOksyL"
+    },
+    {
+      "id": 2592823,
+      "name": "Final Fantasy IX (USA) (Disc 4) (Rev 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 688413936,
+      "extension": "bin",
+      "modified": "2026-10-03T05:51:33.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/YdPcvuWCFt6XiCE9FFVsPV7uQeI8DL"
+    },
+    {
+      "id": 2592824,
+      "name": "Final Fantasy IX (USA) (Disc 4) (Rev 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 105,
+      "extension": "cue",
+      "modified": "2026-10-03T05:51:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/8foBXmlWWZTutQDu8tiT6bYGzIfe4L"
+    },
+    {
+      "id": 2592825,
+      "name": "Final Fantasy IX (USA).m3u",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy XI"
+      ],
+      "size": 178,
+      "extension": "m3u",
+      "modified": "2026-10-03T05:51:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ihGFTahw5Xp5sBNJvdNXMqOAW2CN6l"
+    },
+    {
       "id": 2592690,
       "name": "Final Fantasy Tactics (USA).bin",
       "folder": false,
@@ -798,8 +1015,297 @@
       "modified": "2026-10-03T05:32:20.000000Z",
       "description": null,
       "downloadUrl": "https://uploadg.com/drive/s/2Q5Vqf2ooSoQcmDxTkQMPQq0AK8gfu"
+    },
+    {
+      "id": 2592710,
+      "name": "Final Fantasy VII (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 747435024,
+      "extension": "bin",
+      "modified": "2026-10-03T05:36:21.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/VLuinj14WJ7oDXzzIAX8xulz3p9Hab"
+    },
+    {
+      "id": 2592711,
+      "name": "Final Fantasy VII (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 98,
+      "extension": "cue",
+      "modified": "2026-10-03T05:36:21.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Hv1V1nUIad54kOedSD74b6DwX0A5uJ"
+    },
+    {
+      "id": 2592726,
+      "name": "Final Fantasy VII (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 732657408,
+      "extension": "bin",
+      "modified": "2026-10-03T05:37:32.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6qIcg0uLrntuOiTpeTIhuDeUHz8TUI"
+    },
+    {
+      "id": 2592727,
+      "name": "Final Fantasy VII (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 98,
+      "extension": "cue",
+      "modified": "2026-10-03T05:37:41.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/vssYcmTb9ajWMwThfRJ0uDQ5uwoP7b"
+    },
+    {
+      "id": 2592741,
+      "name": "Final Fantasy VII (USA) (Disc 3).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 659561952,
+      "extension": "bin",
+      "modified": "2026-10-03T05:39:53.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/W4PcNTtYV4NobTxJ1P6W9Mda3nU1V2"
+    },
+    {
+      "id": 2592742,
+      "name": "Final Fantasy VII (USA) (Disc 3).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 98,
+      "extension": "cue",
+      "modified": "2026-10-03T05:39:54.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ppW5W55W3FTb3uAfNOEtOMFN8vjDO6"
+    },
+    {
+      "id": 2592743,
+      "name": "Final Fantasy VII (USA).m3u",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VII"
+      ],
+      "size": 114,
+      "extension": "m3u",
+      "modified": "2026-10-03T05:39:54.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/PQDfPkcDOkTDAHRhzuAHQLx0xbteeD"
+    },
+    {
+      "id": 2592752,
+      "name": "Final Fantasy VIII (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 732271680,
+      "extension": "bin",
+      "modified": "2026-10-03T05:41:54.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/MNrc8vdFlLq049Kth4pDr7M0W5oPzT"
+    },
+    {
+      "id": 2592753,
+      "name": "Final Fantasy VIII (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 99,
+      "extension": "cue",
+      "modified": "2026-10-03T05:42:02.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/DFD7D6clqBUi8UCgY257bIijpmlYVk"
+    },
+    {
+      "id": 2592763,
+      "name": "Final Fantasy VIII (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 692932128,
+      "extension": "bin",
+      "modified": "2026-10-03T05:43:18.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/SJIuw03YVi42QNwODNgqIqdoqmi8z4"
+    },
+    {
+      "id": 2592764,
+      "name": "Final Fantasy VIII (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 99,
+      "extension": "cue",
+      "modified": "2026-10-03T05:43:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/co9XsAA13BOzH66xmyrHhskBIxRSrs"
+    },
+    {
+      "id": 2592774,
+      "name": "Final Fantasy VIII (USA) (Disc 3).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 721356048,
+      "extension": "bin",
+      "modified": "2026-10-03T05:44:48.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/JIO5vm7GyiSlo2xIvw05nnFNj2Ej3H"
+    },
+    {
+      "id": 2592775,
+      "name": "Final Fantasy VIII (USA) (Disc 3).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 99,
+      "extension": "cue",
+      "modified": "2026-10-03T05:44:48.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/PEM4U9wimVSm8U5Hyp0607FKmzhhZI"
+    },
+    {
+      "id": 2592784,
+      "name": "Final Fantasy VIII (USA) (Disc 4).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 694475040,
+      "extension": "bin",
+      "modified": "2026-10-03T05:45:59.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/EnTDVE7PUbkt3iVSnyMYVSkKa5kPDR"
+    },
+    {
+      "id": 2592785,
+      "name": "Final Fantasy VIII (USA) (Disc 4).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 99,
+      "extension": "cue",
+      "modified": "2026-10-03T05:46:08.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/1Hl6AHKl4FpBFwuGwOx64UYCOyZtxM"
+    },
+    {
+      "id": 2592786,
+      "name": "Final Fantasy VIII (USA).m3u",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy VIII"
+      ],
+      "size": 154,
+      "extension": "m3u",
+      "modified": "2026-10-03T05:46:08.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/8cdqU8d3UC4lcLsEbSoQQ2N3Ml3GdR"
+    },
+    {
+      "id": 2592829,
+      "name": "Grandia (USA) (Disc 1).7z",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 424408159,
+      "extension": "7z",
+      "modified": "2026-10-03T05:52:33.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6pjRKzShavVWFYbVibpisCyGe3Yc2U"
     }
   ],
   "rootZip": null,
-  "generated": "2026-10-03T05:36:02.418Z"
+  "generated": "2026-10-03T05:53:45.504Z"
 }
