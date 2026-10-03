@@ -12,7 +12,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:12:42.000000Z",
+      "modified": "2026-10-03T05:54:51.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/RnToOG30xgXITB2ma0logUbe6JICU2"
     },
@@ -28,12 +28,12 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:13:03.000000Z",
+      "modified": "2026-10-03T05:55:06.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/Oltmj1DHPHuQalaQjrp0gnvuTCqfKI"
     },
     {
-      "id": 2592527,
+      "id": 2592874,
       "name": "Brave Prove",
       "folder": true,
       "path": [
@@ -44,9 +44,9 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:13:31.000000Z",
+      "modified": "2026-10-03T05:58:44.000000Z",
       "description": null,
-      "zipAsset": "https://uploadg.com/drive/s/EwBYApjbhA34T88xH8oqD6IK2NLwAF"
+      "zipAsset": "https://uploadg.com/drive/s/twJ1x7NqAZMpEnR4uAFaVWjjn1zbYb"
     },
     {
       "id": 2592543,
@@ -225,22 +225,6 @@
       "zipAsset": "https://uploadg.com/drive/s/Pkfpu3HPtZdd5VvRmg5ZKbyicFYIUQ"
     },
     {
-      "id": 2592828,
-      "name": "Grandia",
-      "folder": true,
-      "path": [
-        "Navi",
-        "roms",
-        "raw",
-        "playstation"
-      ],
-      "size": null,
-      "extension": null,
-      "modified": "2026-10-03T05:52:19.000000Z",
-      "description": null,
-      "zipAsset": "https://uploadg.com/drive/s/FEKQq8C8CGf3lNbFTrKG78SkSyGWrS"
-    },
-    {
       "id": 2592336,
       "name": "Music",
       "folder": true,
@@ -264,6 +248,54 @@
       "description": null
     },
     {
+      "id": 2592902,
+      "name": "Persona",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:02:00.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/ToyPa1XwZC41FyyKtek22GuAqB59oN"
+    },
+    {
+      "id": 2592913,
+      "name": "Persona 2 - Eternal Punishment",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:03:54.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/5mlQ0A5Hd7NSa8U6yLWvWoSBI5aJUN"
+    },
+    {
+      "id": 2592925,
+      "name": "Persona 2 - Innocent Sin",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:05:25.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/fFu0xMa0E7oGblHn1dtKtSj1vwl2AK"
+    },
+    {
       "id": 2592517,
       "name": "playstation",
       "folder": true,
@@ -274,7 +306,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:52:19.000000Z",
+      "modified": "2026-10-03T06:14:37.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/dkfVCQKiMCin4mVAsOcGE5VfY2mYWK"
     },
@@ -288,7 +320,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:52:19.000000Z",
+      "modified": "2026-10-03T06:14:37.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/fo8hAHtRwx7WgDnxC0PEMw8XmWbvbE"
     },
@@ -301,7 +333,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T05:52:19.000000Z",
+      "modified": "2026-10-03T06:14:37.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/w3HgGghk0bsCwp6aXZbx80vUnSej7O"
     },
@@ -318,6 +350,102 @@
       "modified": "2026-10-03T04:57:09.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/DFVBsn3npMuFm5F79Zw3VA6szqEVeP"
+    },
+    {
+      "id": 2592938,
+      "name": "Star Ocean",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:07:43.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/ykMLILeQqaYtr6ry2dUSp7ZduY79sZ"
+    },
+    {
+      "id": 2592949,
+      "name": "Suikoden",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:09:20.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/GoiJgBMKKhSLWCUtm2lq9hrFiI0ckT"
+    },
+    {
+      "id": 2592954,
+      "name": "Suikoden 2",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:10:48.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/uaZb6ScNa12zudMpxuD3o1EblpMaGF"
+    },
+    {
+      "id": 2592959,
+      "name": "Tactics Ogre",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:11:00.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/4JNls8xjp8UIVJDgPrsL81OZbTHMPG"
+    },
+    {
+      "id": 2592965,
+      "name": "Tales of Destiny",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:12:25.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/1Bp52sOyHYWiKuZEKtchry4Aa4DK0R"
+    },
+    {
+      "id": 2592986,
+      "name": "Tales of Eternia",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:14:37.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/UUE2Pr6afQ4bG43XqXgw9bo9YsLC2s"
     },
     {
       "id": 2592519,
@@ -388,7 +516,7 @@
       "downloadUrl": "https://uploadg.com/drive/s/wdMCSHHQ8aZ3o9YNKPJaSoXnbcBFFI"
     },
     {
-      "id": 2592528,
+      "id": 2592875,
       "name": "Brave Prove (p).bin",
       "folder": false,
       "path": [
@@ -400,12 +528,12 @@
       ],
       "size": 197866704,
       "extension": "bin",
-      "modified": "2026-10-03T05:13:30.000000Z",
+      "modified": "2026-10-03T05:58:53.000000Z",
       "description": null,
-      "downloadUrl": "https://uploadg.com/drive/s/ZixuaWUbPUtiSmYyClmEwdl6Hht1Ie"
+      "downloadUrl": "https://uploadg.com/drive/s/vqyhln9FtsM4UOHMsJAHtIa7i1d6MN"
     },
     {
-      "id": 2592530,
+      "id": 2592876,
       "name": "Brave Prove (p).cue",
       "folder": false,
       "path": [
@@ -417,9 +545,9 @@
       ],
       "size": 85,
       "extension": "cue",
-      "modified": "2026-10-03T05:13:42.000000Z",
+      "modified": "2026-10-03T05:58:54.000000Z",
       "description": null,
-      "downloadUrl": "https://uploadg.com/drive/s/16ATKnCkwvZi4msX0MR5GnbEUxIwxY"
+      "downloadUrl": "https://uploadg.com/drive/s/J16qkUWzwwn0ihka2pctO3IuKAAzWT"
     },
     {
       "id": 2592544,
@@ -1289,23 +1417,465 @@
       "downloadUrl": "https://uploadg.com/drive/s/8cdqU8d3UC4lcLsEbSoQQ2N3Ml3GdR"
     },
     {
-      "id": 2592829,
-      "name": "Grandia (USA) (Disc 1).7z",
+      "id": 2592903,
+      "name": "Persona (USA).bin",
       "folder": false,
       "path": [
         "Navi",
         "roms",
         "raw",
         "playstation",
-        "Grandia"
+        "Persona"
       ],
-      "size": 424408159,
-      "extension": "7z",
-      "modified": "2026-10-03T05:52:33.000000Z",
+      "size": 707025312,
+      "extension": "bin",
+      "modified": "2026-10-03T06:01:59.000000Z",
       "description": null,
-      "downloadUrl": "https://uploadg.com/drive/s/6pjRKzShavVWFYbVibpisCyGe3Yc2U"
+      "downloadUrl": "https://uploadg.com/drive/s/WAYCZltcsOHyo6VolHPowGNxzV0yBf"
+    },
+    {
+      "id": 2592904,
+      "name": "Persona (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Persona"
+      ],
+      "size": 79,
+      "extension": "cue",
+      "modified": "2026-10-03T06:02:08.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/NZ4f5EU2QdDh1vwMYwS4DlVaafZma1"
+    },
+    {
+      "id": 2592914,
+      "name": "Persona 2 - Eternal Punishment (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Persona 2 - Eternal Punishment"
+      ],
+      "size": 724827600,
+      "extension": "bin",
+      "modified": "2026-10-03T06:04:01.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Q5jNPHfmhWt8ub9Acwntg0pUy5BgT9"
+    },
+    {
+      "id": 2592915,
+      "name": "Persona 2 - Eternal Punishment (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Persona 2 - Eternal Punishment"
+      ],
+      "size": 102,
+      "extension": "cue",
+      "modified": "2026-10-03T06:04:01.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/qNU9rhydOsJL0z3Xeo2NJxhHsJjqKY"
+    },
+    {
+      "id": 2592926,
+      "name": "Persona 2 - Tsumi - Innocent Sin.bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Persona 2 - Innocent Sin"
+      ],
+      "size": 691925472,
+      "extension": "bin",
+      "modified": "2026-10-03T06:05:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/5ymLl63W7Ro3xB9jNxx7zIFijc61Ho"
+    },
+    {
+      "id": 2592927,
+      "name": "Persona 2 - Tsumi - Innocent Sin.cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Persona 2 - Innocent Sin"
+      ],
+      "size": 106,
+      "extension": "cue",
+      "modified": "2026-10-03T06:05:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/DWMX5NvTgrF5JyNdbwEsFql0zfLLN6"
+    },
+    {
+      "id": 2592939,
+      "name": "Star Ocean - The Second Story (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Star Ocean"
+      ],
+      "size": 556320912,
+      "extension": "bin",
+      "modified": "2026-10-03T06:06:31.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/yuMJYGjJY4oxcusxSNev0k6Zg9t2Yk"
+    },
+    {
+      "id": 2592940,
+      "name": "Star Ocean - The Second Story (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Star Ocean"
+      ],
+      "size": 110,
+      "extension": "cue",
+      "modified": "2026-10-03T06:06:31.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/M1lpBDwYPjtB72ReZva8I5DQVk4gg1"
+    },
+    {
+      "id": 2592944,
+      "name": "Star Ocean - The Second Story (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Star Ocean"
+      ],
+      "size": 723338784,
+      "extension": "bin",
+      "modified": "2026-10-03T06:07:52.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/UismBJLdkW1IEIjuV6U9YlFxGf21cY"
+    },
+    {
+      "id": 2592945,
+      "name": "Star Ocean - The Second Story (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Star Ocean"
+      ],
+      "size": 110,
+      "extension": "cue",
+      "modified": "2026-10-03T06:07:52.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/iU8oy1JeFgsjHtzJK3QUMUMsAhibEN"
+    },
+    {
+      "id": 2592950,
+      "name": "Suikoden (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Suikoden"
+      ],
+      "size": 590135616,
+      "extension": "bin",
+      "modified": "2026-10-03T06:09:18.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ROPz1AOfRwTuq2REWs5GP1pTV0iONS"
+    },
+    {
+      "id": 2592951,
+      "name": "Suikoden (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Suikoden"
+      ],
+      "size": 80,
+      "extension": "cue",
+      "modified": "2026-10-03T06:09:28.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/nOsD2Yamkkkoj5t55puWbK2hhBwOsp"
+    },
+    {
+      "id": 2592955,
+      "name": "Suikoden II (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Suikoden 2"
+      ],
+      "size": 513907296,
+      "extension": "bin",
+      "modified": "2026-10-03T06:10:55.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6GgSKb3EOa0e2VusZo8LpRL6ZaFgFt"
+    },
+    {
+      "id": 2592956,
+      "name": "Suikoden II (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Suikoden 2"
+      ],
+      "size": 83,
+      "extension": "cue",
+      "modified": "2026-10-03T06:10:55.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/J1hbCQB3CtM4TrLEfNlzjNSfwQr2Ad"
+    },
+    {
+      "id": 2592960,
+      "name": "Tactics Ogre (USA) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tactics Ogre"
+      ],
+      "size": 28299264,
+      "extension": "bin",
+      "modified": "2026-10-03T06:11:04.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/v0TVVIk1pJLDAsaFNfrATVh6XDIAVZ"
+    },
+    {
+      "id": 2592962,
+      "name": "Tactics Ogre (USA) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tactics Ogre"
+      ],
+      "size": 14883456,
+      "extension": "bin",
+      "modified": "2026-10-03T06:11:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/mLNBSoeV3yICOvOumYEqSykl6pHPiq"
+    },
+    {
+      "id": 2592963,
+      "name": "Tactics Ogre (USA) (Track 3).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tactics Ogre"
+      ],
+      "size": 37413264,
+      "extension": "bin",
+      "modified": "2026-10-03T06:11:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Lp06SY3xcEamITH2WLe17Scw8Eg1jG"
+    },
+    {
+      "id": 2592964,
+      "name": "Tactics Ogre (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tactics Ogre"
+      ],
+      "size": 318,
+      "extension": "cue",
+      "modified": "2026-10-03T06:11:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/g5EdqCGFj0ZeOvLvVQG3Li1nSloE1R"
+    },
+    {
+      "id": 2592966,
+      "name": "Tales of Destiny (p).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Destiny"
+      ],
+      "size": 214,
+      "extension": "cue",
+      "modified": "2026-10-03T06:11:12.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/lY2hdKTe9hg1PeTXBJIk3BdZvpAaoS"
+    },
+    {
+      "id": 2592977,
+      "name": "Tales of Destiny (USA) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Destiny"
+      ],
+      "size": 558124896,
+      "extension": "bin",
+      "modified": "2026-10-03T06:12:25.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/UL2YqErfFSEEKC7BnxxKUw7rgHnk8R"
+    },
+    {
+      "id": 2592979,
+      "name": "Tales of Destiny (USA) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Destiny"
+      ],
+      "size": 42789936,
+      "extension": "bin",
+      "modified": "2026-10-03T06:12:33.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/PC8Zjx8wfteOyz3puAH2PTvh7d42DB"
+    },
+    {
+      "id": 2592987,
+      "name": "Tales of Destiny II (USA) (Disc 1) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 527318400,
+      "extension": "bin",
+      "modified": "2026-10-03T06:13:29.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/a9elhQesvKGpLiT9wPrJMlHxtO3bQZ"
+    },
+    {
+      "id": 2592988,
+      "name": "Tales of Destiny II (USA) (Disc 1) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 32123616,
+      "extension": "bin",
+      "modified": "2026-10-03T06:13:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/GwtQfmgb8NWuYZFf5ZmKk1tYlOR7zt"
+    },
+    {
+      "id": 2592989,
+      "name": "Tales of Destiny II (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 238,
+      "extension": "cue",
+      "modified": "2026-10-03T06:13:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/TZhakgJupwOZ2NiY7DXNjL1wJWEltX"
+    },
+    {
+      "id": 2592997,
+      "name": "Tales of Destiny II (USA) (Disc 2) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 546764736,
+      "extension": "bin",
+      "modified": "2026-10-03T06:14:43.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Y5kFsXaoO50HGbAWbwiw7qY8m6QEBG"
+    },
+    {
+      "id": 2592998,
+      "name": "Tales of Destiny II (USA) (Disc 2) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 32123616,
+      "extension": "bin",
+      "modified": "2026-10-03T06:14:43.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/nOtZMRQxQqJxCDgldRwgZKyvtdyXsR"
+    },
+    {
+      "id": 2592999,
+      "name": "Tales of Destiny II (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 238,
+      "extension": "cue",
+      "modified": "2026-10-03T06:14:44.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/tgwGyhpryVQUlMKpIJzsKOL8TmflMT"
     }
   ],
   "rootZip": null,
-  "generated": "2026-10-03T05:53:45.504Z"
+  "generated": "2026-10-03T06:16:23.687Z"
 }
