@@ -225,6 +225,70 @@
       "zipAsset": "https://uploadg.com/drive/s/Pkfpu3HPtZdd5VvRmg5ZKbyicFYIUQ"
     },
     {
+      "id": 2593215,
+      "name": "Grandia",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:40:14.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/gLqgAmzth9sszJZnKNepQm0oMPT2TV"
+    },
+    {
+      "id": 2593318,
+      "name": "Legend of Dragoon",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:45:55.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/3nBvcnITQw9URmXG9BeV3ewvFjqm6p"
+    },
+    {
+      "id": 2593370,
+      "name": "Legend of Legaia",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:46:45.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/RopC0fqBXcfiVUuv7LVa3prqZcBfDz"
+    },
+    {
+      "id": 2593376,
+      "name": "Legend of Mana",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:48:06.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/qP7r5eq0fMbUw2aSZNlRMKxHcK1CG6"
+    },
+    {
       "id": 2592336,
       "name": "Music",
       "folder": true,
@@ -306,7 +370,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T06:14:37.000000Z",
+      "modified": "2026-10-03T06:48:06.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/dkfVCQKiMCin4mVAsOcGE5VfY2mYWK"
     },
@@ -320,7 +384,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T06:14:37.000000Z",
+      "modified": "2026-10-03T06:48:06.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/fo8hAHtRwx7WgDnxC0PEMw8XmWbvbE"
     },
@@ -333,7 +397,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T06:14:37.000000Z",
+      "modified": "2026-10-03T06:48:06.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/w3HgGghk0bsCwp6aXZbx80vUnSej7O"
     },
@@ -443,9 +507,137 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T06:14:37.000000Z",
+      "modified": "2026-10-03T06:15:47.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/UUE2Pr6afQ4bG43XqXgw9bo9YsLC2s"
+    },
+    {
+      "id": 2593018,
+      "name": "Tales of Phantasia",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:16:54.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/ocAweYFcmx1VUJNf46xkWaWlwojD8c"
+    },
+    {
+      "id": 2593028,
+      "name": "TearRing Saga",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:17:55.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/9lRkSnFlgCObLCLyWbPoPtHA7TNbjj"
+    },
+    {
+      "id": 2593060,
+      "name": "Thousand Arms",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:21:41.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/YmF01ltckhr65GiaNwtaqFCX4UUbg5"
+    },
+    {
+      "id": 2593133,
+      "name": "Vagrant Story",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:23:33.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/yZfNoXKgNSB7TqzYL8XXZ9wynCqGr8"
+    },
+    {
+      "id": 2593139,
+      "name": "Valkyrie Profile",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:26:54.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/Afk82rsxiKSt2A8FAh9qxTEdHTE9G6"
+    },
+    {
+      "id": 2593167,
+      "name": "Wild Arms",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:28:33.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/lDuS8YNjADJitVnFXsJETPVnLAZrYW"
+    },
+    {
+      "id": 2593175,
+      "name": "Wild Arms 2",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:30:59.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/RhhxR2LpdolmPSBl2W5ZzTTYCp0Ni6"
+    },
+    {
+      "id": 2593195,
+      "name": "Xenogears",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T06:33:52.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/G1zbRInstOpm6F2QiaZ63dtVC7qLDy"
     },
     {
       "id": 2592519,
@@ -1417,6 +1609,312 @@
       "downloadUrl": "https://uploadg.com/drive/s/8cdqU8d3UC4lcLsEbSoQQ2N3Ml3GdR"
     },
     {
+      "id": 2593216,
+      "name": "Grandia (USA) (Disc 1).7z",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 424408159,
+      "extension": "7z",
+      "modified": "2026-10-03T06:35:00.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/jhKMWC1P9rKDUPntrxD7ZDiqyRtLk1"
+    },
+    {
+      "id": 2593229,
+      "name": "Grandia (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 693155568,
+      "extension": "bin",
+      "modified": "2026-10-03T06:37:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/lQIAbiG8tLmfuvf4oPR1gV9IXJ5yfJ"
+    },
+    {
+      "id": 2593231,
+      "name": "Grandia (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 88,
+      "extension": "cue",
+      "modified": "2026-10-03T06:37:28.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/3EcxZCACJVCN1iUHgpH92oRCaNMKQZ"
+    },
+    {
+      "id": 2593238,
+      "name": "Grandia (USA) (Disc 2).7z",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 405821587,
+      "extension": "7z",
+      "modified": "2026-10-03T06:38:18.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/GQLMHC1hyEp4F4L9SdpyGyO4I7Ov5s"
+    },
+    {
+      "id": 2593264,
+      "name": "Grandia (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 678142752,
+      "extension": "bin",
+      "modified": "2026-10-03T06:40:31.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/AbSCUQgntdA0ZQWg5dVPRBN8t3sMxU"
+    },
+    {
+      "id": 2593265,
+      "name": "Grandia (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Grandia"
+      ],
+      "size": 88,
+      "extension": "cue",
+      "modified": "2026-10-03T06:40:14.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/RaRzHEttVsVz9oCZq6BYYKxTA89kmJ"
+    },
+    {
+      "id": 2593319,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 1) Undub.bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 484902432,
+      "extension": "bin",
+      "modified": "2026-10-03T06:42:22.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/9z6Q8IWf1jT8tpTDh6o7Ici6RyiEap"
+    },
+    {
+      "id": 2593321,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 1) Undub.cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 117,
+      "extension": "cue",
+      "modified": "2026-10-03T06:42:29.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/54mFF6oxynwEOl4uhJZcxX7Ep6Qine"
+    },
+    {
+      "id": 2593338,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 2) Undub.bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 575960112,
+      "extension": "bin",
+      "modified": "2026-10-03T06:43:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/F4o51lUleukBwTMSeStg7aLGnzHut5"
+    },
+    {
+      "id": 2593339,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 2) Undub.cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 117,
+      "extension": "cue",
+      "modified": "2026-10-03T06:43:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/nBAf3TGymXXmpyoRHeASCU9Mg7LhNT"
+    },
+    {
+      "id": 2593354,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 3) Undub.bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 559124496,
+      "extension": "bin",
+      "modified": "2026-10-03T06:44:43.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/3aDB0QqVhSQTfxzXMjruvjZB40ht8q"
+    },
+    {
+      "id": 2593355,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 3) Undub.cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 117,
+      "extension": "cue",
+      "modified": "2026-10-03T06:44:41.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/xkZMhf65S1YfUhUK2FjIAEs63lvTiW"
+    },
+    {
+      "id": 2593365,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 4) Undub.bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 748154736,
+      "extension": "bin",
+      "modified": "2026-10-03T06:45:54.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/8neA51VPRvNLPZqW9YKn351lmsegD6"
+    },
+    {
+      "id": 2593366,
+      "name": "Legend of Dragoon, The (USA, Canada) (Disc 4) Undub.cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Dragoon"
+      ],
+      "size": 117,
+      "extension": "cue",
+      "modified": "2026-10-03T06:46:03.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/URRG2f04hh4V2HWv3l5nY7ZDDvJQk3"
+    },
+    {
+      "id": 2593371,
+      "name": "Legend of Legaia (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Legaia"
+      ],
+      "size": 466714416,
+      "extension": "bin",
+      "modified": "2026-10-03T06:46:50.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/DswyAp7o29QrZBvAXtcHJZ6qUR6QvT"
+    },
+    {
+      "id": 2593372,
+      "name": "Legend of Legaia (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Legaia"
+      ],
+      "size": 88,
+      "extension": "cue",
+      "modified": "2026-10-03T06:46:50.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/CwCS6h14a5q7zv7u9mcH040wy7jwzN"
+    },
+    {
+      "id": 2593377,
+      "name": "Legend of Mana (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Mana"
+      ],
+      "size": 677406576,
+      "extension": "bin",
+      "modified": "2026-10-03T06:48:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/IbclR0zLuJKa0ShAwhIFmCu8mV9ulu"
+    },
+    {
+      "id": 2593378,
+      "name": "Legend of Mana (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Legend of Mana"
+      ],
+      "size": 86,
+      "extension": "cue",
+      "modified": "2026-10-03T06:48:12.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/7X003Ji642goxkbOvItU8KyWdDGZqH"
+    },
+    {
       "id": 2592903,
       "name": "Persona (USA).bin",
       "folder": false,
@@ -1874,8 +2372,484 @@
       "modified": "2026-10-03T06:14:44.000000Z",
       "description": null,
       "downloadUrl": "https://uploadg.com/drive/s/tgwGyhpryVQUlMKpIJzsKOL8TmflMT"
+    },
+    {
+      "id": 2593008,
+      "name": "Tales of Destiny II (USA) (Disc 3) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 607857936,
+      "extension": "bin",
+      "modified": "2026-10-03T06:15:42.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/OPGO1nbOvzrZbokgLXjvsbXV312gYD"
+    },
+    {
+      "id": 2593011,
+      "name": "Tales of Destiny II (USA) (Disc 3) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 32123616,
+      "extension": "bin",
+      "modified": "2026-10-03T06:15:46.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/A2glGWhOLOuFPy09SzOOsAuFsKLL6w"
+    },
+    {
+      "id": 2593013,
+      "name": "Tales of Destiny II (USA) (Disc 3).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Eternia"
+      ],
+      "size": 238,
+      "extension": "cue",
+      "modified": "2026-10-03T06:15:53.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/HBMKKEnNWi9rjDyc1a0uOPXRta9Ved"
+    },
+    {
+      "id": 2593019,
+      "name": "Tales of Phantasia(p).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Phantasia"
+      ],
+      "size": 613535664,
+      "extension": "bin",
+      "modified": "2026-10-03T06:16:53.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/JD6D7IAgw8GstwTkbosM9pjDxb5agm"
+    },
+    {
+      "id": 2593020,
+      "name": "Tales of Phantasia(p).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Tales of Phantasia"
+      ],
+      "size": 87,
+      "extension": "cue",
+      "modified": "2026-10-03T06:17:03.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/OnYmLqUy00bYqsTMsvd6XR2vp0pidi"
+    },
+    {
+      "id": 2593061,
+      "name": "Thousand Arms (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Thousand Arms"
+      ],
+      "size": 648763920,
+      "extension": "bin",
+      "modified": "2026-10-03T06:19:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/AB2GwIkNh443C4dAvbMDnD9RdcGkvH"
+    },
+    {
+      "id": 2593062,
+      "name": "Thousand Arms (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Thousand Arms"
+      ],
+      "size": 94,
+      "extension": "cue",
+      "modified": "2026-10-03T06:19:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/5EdjPCkZvrESId4kov0Xt6WwEXUoJD"
+    },
+    {
+      "id": 2593093,
+      "name": "Thousand Arms (USA) (Disc 2) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Thousand Arms"
+      ],
+      "size": 590065056,
+      "extension": "bin",
+      "modified": "2026-10-03T06:21:44.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/bUvxNREKT4aIYbbn10HURvZ4ptcDXy"
+    },
+    {
+      "id": 2593095,
+      "name": "Thousand Arms (USA) (Disc 2) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Thousand Arms"
+      ],
+      "size": 43747200,
+      "extension": "bin",
+      "modified": "2026-10-03T06:21:53.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Ub0cRLoCR4bKYpGoLBsLdczi3GCQAM"
+    },
+    {
+      "id": 2593096,
+      "name": "Thousand Arms (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Thousand Arms"
+      ],
+      "size": 226,
+      "extension": "cue",
+      "modified": "2026-10-03T06:21:52.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ed5HW3fw0MUrzyqlQa3x6RxCeEQh07"
+    },
+    {
+      "id": 2593134,
+      "name": "Vagrant Story (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Vagrant Story"
+      ],
+      "size": 750643152,
+      "extension": "bin",
+      "modified": "2026-10-03T06:23:31.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/FIlw06ucnE0RHUDXi94BCMD1C0SQ8E"
+    },
+    {
+      "id": 2593135,
+      "name": "Vagrant Story (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Vagrant Story"
+      ],
+      "size": 85,
+      "extension": "cue",
+      "modified": "2026-10-03T06:23:46.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/AFBRaxC6m24qnL0J7uZEpD0bCivN4N"
+    },
+    {
+      "id": 2593140,
+      "name": "Valkyrie Profile (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Valkyrie Profile"
+      ],
+      "size": 730448880,
+      "extension": "bin",
+      "modified": "2026-10-03T06:25:22.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/7GZyosuN7MoDceRe69mDDu2GosHz9S"
+    },
+    {
+      "id": 2593141,
+      "name": "Valkyrie Profile (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Valkyrie Profile"
+      ],
+      "size": 97,
+      "extension": "cue",
+      "modified": "2026-10-03T06:25:22.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/IeFHepbzreZiXkTa222Zq7HYX65VpV"
+    },
+    {
+      "id": 2593154,
+      "name": "Valkyrie Profile (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Valkyrie Profile"
+      ],
+      "size": 747352704,
+      "extension": "bin",
+      "modified": "2026-10-03T06:26:59.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/9GEhPkPGbROZToztBGfzi6nrOKtg3S"
+    },
+    {
+      "id": 2593155,
+      "name": "Valkyrie Profile (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Valkyrie Profile"
+      ],
+      "size": 97,
+      "extension": "cue",
+      "modified": "2026-10-03T06:26:54.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/1c6ESnPO8oGAI3cjUWXkNTF4KLkxLJ"
+    },
+    {
+      "id": 2593168,
+      "name": "Wild Arms (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Wild Arms"
+      ],
+      "size": 637163856,
+      "extension": "bin",
+      "modified": "2026-10-03T06:28:32.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/7Sx1oa76ljEwV01ixfh2Ld6DPh4AmB"
+    },
+    {
+      "id": 2593169,
+      "name": "Wild Arms (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Wild Arms"
+      ],
+      "size": 81,
+      "extension": "cue",
+      "modified": "2026-10-03T06:28:42.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/3qsewwiYTj4rrMjM4qeTkCao4c4GCV"
+    },
+    {
+      "id": 2593177,
+      "name": "Wild Arms 2 (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Wild Arms 2"
+      ],
+      "size": 515619552,
+      "extension": "bin",
+      "modified": "2026-10-03T06:29:52.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/KruLKUlyxRIQpUuH6c8T2jxtxkaOfs"
+    },
+    {
+      "id": 2593178,
+      "name": "Wild Arms 2 (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Wild Arms 2"
+      ],
+      "size": 92,
+      "extension": "cue",
+      "modified": "2026-10-03T06:29:52.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/O5q81A9VV9Nnwqp13mhBkMovXkfbZf"
+    },
+    {
+      "id": 2593189,
+      "name": "Wild Arms 2 (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Wild Arms 2"
+      ],
+      "size": 562311456,
+      "extension": "bin",
+      "modified": "2026-10-03T06:31:07.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/L76Wp7bbKApm0wu9bXYqwDP2D36grl"
+    },
+    {
+      "id": 2593190,
+      "name": "Wild Arms 2 (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Wild Arms 2"
+      ],
+      "size": 92,
+      "extension": "cue",
+      "modified": "2026-10-03T06:31:07.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/BEzu8ZzXxpntkzbfBbPY0j74fueeQI"
+    },
+    {
+      "id": 2593196,
+      "name": "Xenogears (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Xenogears"
+      ],
+      "size": 718738272,
+      "extension": "bin",
+      "modified": "2026-10-03T06:32:19.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/TPzVG3csKN5uyEW7ARprRsuAdqmRTm"
+    },
+    {
+      "id": 2593197,
+      "name": "Xenogears (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Xenogears"
+      ],
+      "size": 90,
+      "extension": "cue",
+      "modified": "2026-10-03T06:32:28.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/UEwlz81xraAT9ZE2XiAL9prhFlei1b"
+    },
+    {
+      "id": 2593210,
+      "name": "Xenogears (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Xenogears"
+      ],
+      "size": 688700880,
+      "extension": "bin",
+      "modified": "2026-10-03T06:34:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/hlXx7QiJ0mOzxOt4SWXZTK014Nu3Hz"
+    },
+    {
+      "id": 2593211,
+      "name": "Xenogears (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Xenogears"
+      ],
+      "size": 90,
+      "extension": "cue",
+      "modified": "2026-10-03T06:34:04.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/pt2UTQ9OUdgnLRSMzjEgFKA1V2sc79"
+    },
+    {
+      "id": 2593029,
+      "name": "Yutona Eiyuu Senki - TearRingSaga (Japan).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "TearRing Saga"
+      ],
+      "size": 594054048,
+      "extension": "bin",
+      "modified": "2026-10-03T06:18:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/mIAGoAqJEg3TZHxHoENOdfiNASCxGK"
+    },
+    {
+      "id": 2593031,
+      "name": "Yutona Eiyuu Senki - TearRingSaga (Japan).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "TearRing Saga"
+      ],
+      "size": 107,
+      "extension": "cue",
+      "modified": "2026-10-03T06:18:05.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/5KblOqKU8MimWMZ9I97bZRA07NMAKL"
     }
   ],
   "rootZip": null,
-  "generated": "2026-10-03T06:16:23.687Z"
+  "generated": "2026-10-03T06:50:20.002Z"
 }
