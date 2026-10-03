@@ -1,6 +1,19 @@
 {
   "files": [
     {
+      "id": 2592336,
+      "name": "Music",
+      "folder": true,
+      "path": [
+        "Navi"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T04:49:49.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/3wErVY5XCCfZXDm9H84VwNSyttZ90w"
+    },
+    {
       "id": "acct:Navi",
       "name": "Navi",
       "folder": true,
@@ -9,8 +22,35 @@
       "extension": null,
       "modified": null,
       "description": null
+    },
+    {
+      "id": 2592352,
+      "name": "raw",
+      "folder": true,
+      "path": [
+        "Navi",
+        "Roms"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T04:51:56.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/SV8jwSUp26k4iMYi3JMk9wBQXN5SUo"
+    },
+    {
+      "id": 2592338,
+      "name": "Roms",
+      "folder": true,
+      "path": [
+        "Navi"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T04:49:56.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/gkD91QAhatGHT2wzXwqkRFAjuM718T"
     }
   ],
   "rootZip": null,
-  "generated": "2026-10-03T04:39:21.446Z"
+  "generated": "2026-10-03T04:53:22.986Z"
 }
