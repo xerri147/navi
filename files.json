@@ -1,6 +1,182 @@
 {
   "files": [
     {
+      "id": 2592518,
+      "name": "Alundra",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:12:42.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/RnToOG30xgXITB2ma0logUbe6JICU2"
+    },
+    {
+      "id": 2592521,
+      "name": "Beyond the Beyond",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:13:03.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/Oltmj1DHPHuQalaQjrp0gnvuTCqfKI"
+    },
+    {
+      "id": 2592527,
+      "name": "Brave Prove",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:13:31.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/EwBYApjbhA34T88xH8oqD6IK2NLwAF"
+    },
+    {
+      "id": 2592543,
+      "name": "Breath of Fire III",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:15:45.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/E23iapRqakbZRQcFKc0dflHaG37NN8"
+    },
+    {
+      "id": 2592558,
+      "name": "Breath of Fire IV",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:17:09.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/uZizAFAoLhQvFvzEcxXO6fRiCrGlC7"
+    },
+    {
+      "id": 2592569,
+      "name": "Castlevania",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:18:39.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/B3PiRL7BFJ5pQRl27aYGrbmnTUIo2M"
+    },
+    {
+      "id": 2592593,
+      "name": "Chrono Cross",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:24:05.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/sym7i49vJvtmlCcWyPpNsxQ2KdKxaR"
+    },
+    {
+      "id": 2592624,
+      "name": "Digimon",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:24:53.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/Lr0gSCe1LLWUu1aWg6E1P1u0AQf4fP"
+    },
+    {
+      "id": 2592633,
+      "name": "Digimon World 2",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:26:26.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/MDDncTffwSqOT44JJ5R2PEcCvQcMGu"
+    },
+    {
+      "id": 2592648,
+      "name": "Dragon Valor",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:30:00.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/C98QxRrJs9Vq5jmBJ7AIizSxU6IwXE"
+    },
+    {
+      "id": 2592689,
+      "name": "Final Fantasy Tactics",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:32:03.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/10nEH6kykITyfh9UeDfOpwQ31mRWCr"
+    },
+    {
       "id": 2592336,
       "name": "Music",
       "folder": true,
@@ -24,6 +200,21 @@
       "description": null
     },
     {
+      "id": 2592517,
+      "name": "playstation",
+      "folder": true,
+      "path": [
+        "Navi",
+        "roms",
+        "raw"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-03T05:32:03.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/dkfVCQKiMCin4mVAsOcGE5VfY2mYWK"
+    },
+    {
       "id": 2592402,
       "name": "raw",
       "folder": true,
@@ -33,7 +224,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T04:56:58.000000Z",
+      "modified": "2026-10-03T05:32:03.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/fo8hAHtRwx7WgDnxC0PEMw8XmWbvbE"
     },
@@ -46,7 +237,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T04:56:48.000000Z",
+      "modified": "2026-10-03T05:32:03.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/w3HgGghk0bsCwp6aXZbx80vUnSej7O"
     },
@@ -63,8 +254,552 @@
       "modified": "2026-10-03T04:57:09.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/DFVBsn3npMuFm5F79Zw3VA6szqEVeP"
+    },
+    {
+      "id": 2592519,
+      "name": "Alundra (USA) (Rev 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Alundra"
+      ],
+      "size": 600359760,
+      "extension": "bin",
+      "modified": "2026-10-03T05:12:47.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/wrGH12tviJ3u4FD9mzXK3FSGdhaemW"
+    },
+    {
+      "id": 2592520,
+      "name": "Alundra (USA) (Rev 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Alundra"
+      ],
+      "size": 87,
+      "extension": "cue",
+      "modified": "2026-10-03T05:12:47.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/eRhs2lwWBACgcEmUOrYXkzWAXnDnzy"
+    },
+    {
+      "id": 2592522,
+      "name": "Beyond the Beyond (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Beyond the Beyond"
+      ],
+      "size": 144537456,
+      "extension": "bin",
+      "modified": "2026-10-03T05:13:01.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/7wBisfTQ6tJ2V1D9lXtQHEnPoRgEfz"
+    },
+    {
+      "id": 2592523,
+      "name": "Beyond the Beyond (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Beyond the Beyond"
+      ],
+      "size": 89,
+      "extension": "cue",
+      "modified": "2026-10-03T05:13:10.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/wdMCSHHQ8aZ3o9YNKPJaSoXnbcBFFI"
+    },
+    {
+      "id": 2592528,
+      "name": "Brave Prove (p).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Brave Prove"
+      ],
+      "size": 197866704,
+      "extension": "bin",
+      "modified": "2026-10-03T05:13:30.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ZixuaWUbPUtiSmYyClmEwdl6Hht1Ie"
+    },
+    {
+      "id": 2592530,
+      "name": "Brave Prove (p).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Brave Prove"
+      ],
+      "size": 85,
+      "extension": "cue",
+      "modified": "2026-10-03T05:13:42.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/16ATKnCkwvZi4msX0MR5GnbEUxIwxY"
+    },
+    {
+      "id": 2592544,
+      "name": "Breath of Fire III (USA) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Breath of Fire III"
+      ],
+      "size": 442938048,
+      "extension": "bin",
+      "modified": "2026-10-03T05:15:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/LxfLD2Siakj4OEgsoF5jFEzWoBO7N3"
+    },
+    {
+      "id": 2592547,
+      "name": "Breath of Fire III (USA) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Breath of Fire III"
+      ],
+      "size": 37396800,
+      "extension": "bin",
+      "modified": "2026-10-03T05:15:44.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/MlWmYosbW3mlqXdUUySZZm1s6DkOR8"
+    },
+    {
+      "id": 2592548,
+      "name": "Breath of Fire III (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Breath of Fire III"
+      ],
+      "size": 218,
+      "extension": "cue",
+      "modified": "2026-10-03T05:15:50.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/UJ7E3tcJL1GLEUxOtN7m6MWVgdGGyU"
+    },
+    {
+      "id": 2592559,
+      "name": "Breath of Fire IV (USA) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Breath of Fire IV"
+      ],
+      "size": 645066576,
+      "extension": "bin",
+      "modified": "2026-10-03T05:17:09.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/dzGcve5IiwcdzSl4WevoSRZiRyEbFb"
+    },
+    {
+      "id": 2592560,
+      "name": "Breath of Fire IV (USA) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Breath of Fire IV"
+      ],
+      "size": 43248576,
+      "extension": "bin",
+      "modified": "2026-10-03T05:17:08.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/0wKDhWlQp3q3hDqZYmaykw4renqs7y"
+    },
+    {
+      "id": 2592561,
+      "name": "Breath of Fire IV (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Breath of Fire IV"
+      ],
+      "size": 221,
+      "extension": "cue",
+      "modified": "2026-10-03T05:17:09.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ueDkTZhwHlRoSxctOuBOBwEV7sNDd4"
+    },
+    {
+      "id": 2592570,
+      "name": "Castlevania - Symphony of the Night (USA) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Castlevania"
+      ],
+      "size": 538655040,
+      "extension": "bin",
+      "modified": "2026-10-03T05:18:40.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/TQtOiO6FS5VlQcCdqlN8PuCHq5zUrq"
+    },
+    {
+      "id": 2592571,
+      "name": "Castlevania - Symphony of the Night (USA) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Castlevania"
+      ],
+      "size": 44676240,
+      "extension": "bin",
+      "modified": "2026-10-03T05:18:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6ujznAu42Vuf0f4w8dsUmEgmfmJJ2k"
+    },
+    {
+      "id": 2592572,
+      "name": "Castlevania - Symphony of the Night (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Castlevania"
+      ],
+      "size": 282,
+      "extension": "cue",
+      "modified": "2026-10-03T05:18:47.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/UK9nus6q3MKyImmV16vZiCxmW8LIip"
+    },
+    {
+      "id": 2592594,
+      "name": "Chrono Cross (USA) (Disc 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Chrono Cross"
+      ],
+      "size": 736651104,
+      "extension": "bin",
+      "modified": "2026-10-03T05:21:03.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/qw6oWhooCO3Qftpn8mfAfvzuTlyGEp"
+    },
+    {
+      "id": 2592595,
+      "name": "Chrono Cross (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Chrono Cross"
+      ],
+      "size": 93,
+      "extension": "cue",
+      "modified": "2026-10-03T05:21:12.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/nCbOi5lDbOxy2yQdLZYYhlP6X5Afia"
+    },
+    {
+      "id": 2592617,
+      "name": "Chrono Cross (USA) (Disc 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Chrono Cross"
+      ],
+      "size": 741797280,
+      "extension": "bin",
+      "modified": "2026-10-03T05:24:02.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/T1quEUkacoDz4AG3AmxhOPX81KKYhn"
+    },
+    {
+      "id": 2592618,
+      "name": "Chrono Cross (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Chrono Cross"
+      ],
+      "size": 93,
+      "extension": "cue",
+      "modified": "2026-10-03T05:24:09.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/G4GUX9952fZuo9DilCqhlNS4VAhmpz"
+    },
+    {
+      "id": 2592619,
+      "name": "Chrono Cross (USA).m3u",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Chrono Cross"
+      ],
+      "size": 64,
+      "extension": "m3u",
+      "modified": "2026-10-03T05:24:10.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/XLQbT0YoB1LzOYwL7EfvRh65h7XoSt"
+    },
+    {
+      "id": 2592625,
+      "name": "Digimon World (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Digimon"
+      ],
+      "size": 381771936,
+      "extension": "bin",
+      "modified": "2026-10-03T05:24:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/MVak4W275SZoE0uzIFKqmBBVPFiM9F"
+    },
+    {
+      "id": 2592626,
+      "name": "Digimon World (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Digimon"
+      ],
+      "size": 85,
+      "extension": "cue",
+      "modified": "2026-10-03T05:24:59.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/XM2g9PqItDGT0D9jVMGa9WO89ytNQk"
+    },
+    {
+      "id": 2592634,
+      "name": "Digimon World 2 (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Digimon World 2"
+      ],
+      "size": 461993952,
+      "extension": "bin",
+      "modified": "2026-10-03T05:26:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6GdESli10SZAXc5hjIKE98HemCm3VK"
+    },
+    {
+      "id": 2592635,
+      "name": "Digimon World 2 (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Digimon World 2"
+      ],
+      "size": 87,
+      "extension": "cue",
+      "modified": "2026-10-03T05:26:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/xL8Rz5CdBmOOPO72kyWH35YQgtzgbI"
+    },
+    {
+      "id": 2592649,
+      "name": "Dragon Valor (USA) (Disc 1) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Dragon Valor"
+      ],
+      "size": 590288496,
+      "extension": "bin",
+      "modified": "2026-10-03T05:28:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/PY7GvqKjztek2opo3sJx62y10oFTaf"
+    },
+    {
+      "id": 2592650,
+      "name": "Dragon Valor (USA) (Disc 1) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Dragon Valor"
+      ],
+      "size": 40353264,
+      "extension": "bin",
+      "modified": "2026-10-03T05:28:21.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/HWD56KJzJ3rmERNiM89gAskmm8Hjur"
+    },
+    {
+      "id": 2592651,
+      "name": "Dragon Valor (USA) (Disc 1).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Dragon Valor"
+      ],
+      "size": 224,
+      "extension": "cue",
+      "modified": "2026-10-03T05:28:27.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/uySdbfufW4EkQLHnr99TsZvDq9XdqB"
+    },
+    {
+      "id": 2592666,
+      "name": "Dragon Valor (USA) (Disc 2) (Track 1).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Dragon Valor"
+      ],
+      "size": 657981408,
+      "extension": "bin",
+      "modified": "2026-10-03T05:29:53.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/knA4FeUH2JxHc837OEhyXy5EYIR8X3"
+    },
+    {
+      "id": 2592668,
+      "name": "Dragon Valor (USA) (Disc 2) (Track 2).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Dragon Valor"
+      ],
+      "size": 40353264,
+      "extension": "bin",
+      "modified": "2026-10-03T05:30:04.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/MkTZ5Q0HC5Dm4RPix26Z6qfY6fM7YY"
+    },
+    {
+      "id": 2592669,
+      "name": "Dragon Valor (USA) (Disc 2).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Dragon Valor"
+      ],
+      "size": 224,
+      "extension": "cue",
+      "modified": "2026-10-03T05:30:09.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/RlhW8dsNEstWA58pVqBFEScx0rZKTF"
+    },
+    {
+      "id": 2592690,
+      "name": "Final Fantasy Tactics (USA).bin",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy Tactics"
+      ],
+      "size": 541315152,
+      "extension": "bin",
+      "modified": "2026-10-03T05:32:20.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/n9xnlkumxEvTagppr4hCvOYgZjP8oh"
+    },
+    {
+      "id": 2592691,
+      "name": "Final Fantasy Tactics (USA).cue",
+      "folder": false,
+      "path": [
+        "Navi",
+        "roms",
+        "raw",
+        "playstation",
+        "Final Fantasy Tactics"
+      ],
+      "size": 93,
+      "extension": "cue",
+      "modified": "2026-10-03T05:32:20.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/2Q5Vqf2ooSoQcmDxTkQMPQq0AK8gfu"
     }
   ],
   "rootZip": null,
-  "generated": "2026-10-03T05:07:50.876Z"
+  "generated": "2026-10-03T05:36:02.418Z"
 }
