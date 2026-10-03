@@ -1,0 +1,78 @@
+name: Sync file list
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 minutes (GitHub's minimum)
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # needed to commit files.json AND to create/update the
+                     # "file-zips" release that hosts the .zip assets
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Pull drive listing, resolve links, build zips
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Single account (used when UDROP_ACCOUNT_NAMES below is empty):
+          UDROP_KEY1: ${{ secrets.UDROP_KEY1 }}
+          UDROP_KEY2: ${{ secrets.UDROP_KEY2 }}
+          # ROOT_FOLDER_ID: '123'
+
+          # Multiple accounts: set this to a comma-separated list of display
+          # names, then fill in UDROP_KEY1_i/UDROP_KEY2_i secrets to match
+          # (see scripts/sync.js header for details). Example:
+          # UDROP_ACCOUNT_NAMES: 'School Drive, Personal Archive'
+          UDROP_ACCOUNT_NAMES: ${{ vars.UDROP_ACCOUNT_NAMES }}
+          UDROP_KEY1_1: ${{ secrets.UDROP_KEY1_1 }}
+          UDROP_KEY2_1: ${{ secrets.UDROP_KEY2_1 }}
+          UDROP_ROOT_1: ${{ vars.UDROP_ROOT_1 }}
+          UDROP_KEY1_2: ${{ secrets.UDROP_KEY1_2 }}
+          UDROP_KEY2_2: ${{ secrets.UDROP_KEY2_2 }}
+          UDROP_ROOT_2: ${{ vars.UDROP_ROOT_2 }}
+          UDROP_KEY1_3: ${{ secrets.UDROP_KEY1_3 }}
+          UDROP_KEY2_3: ${{ secrets.UDROP_KEY2_3 }}
+          UDROP_ROOT_3: ${{ vars.UDROP_ROOT_3 }}
+          UDROP_KEY1_4: ${{ secrets.UDROP_KEY1_4 }}
+          UDROP_KEY2_4: ${{ secrets.UDROP_KEY2_4 }}
+          UDROP_ROOT_4: ${{ vars.UDROP_ROOT_4 }}
+
+          # uploadg.com account: read-only, links to uploadg's own share
+          # pages (keeps its ad-supported download/zip pages intact — see
+          # scripts/sync.js header for details).
+          # UPLOADG_ACCOUNT_NAMES: 'Music'
+          UPLOADG_ACCOUNT_NAMES: ${{ vars.UPLOADG_ACCOUNT_NAMES }}
+          UPLOADG_SHARE_URL_TEMPLATE: ${{ vars.UPLOADG_SHARE_URL_TEMPLATE }}
+          UPLOADG_TOKEN_1: ${{ secrets.UPLOADG_TOKEN_1 }}
+          UPLOADG_ROOT_1: ${{ vars.UPLOADG_ROOT_1 }}
+        run: node scripts/sync.js
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain files.json)" ]]; then
+            git config user.name  'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add files.json
+            git commit -m "Update file list"
+            git push
+          else
+            echo "Nothing to commit."
+          fi
