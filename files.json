@@ -238,6 +238,20 @@
       "zipAsset": "https://uploadg.com/drive/s/Pkfpu3HPtZdd5VvRmg5ZKbyicFYIUQ"
     },
     {
+      "id": 2640463,
+      "name": "Game Soundtracks",
+      "folder": true,
+      "path": [
+        "Navi",
+        "Music"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-07T05:46:22.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/30TvNyAr5QWu8l2DVPzQpuA3JzpStA"
+    },
+    {
       "id": 2593215,
       "name": "Grandia",
       "folder": true,
@@ -302,6 +316,21 @@
       "zipAsset": "https://uploadg.com/drive/s/qP7r5eq0fMbUw2aSZNlRMKxHcK1CG6"
     },
     {
+      "id": 2640495,
+      "name": "Legend of Zelda - The Minish Cap",
+      "folder": true,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-07T05:46:22.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/Wfmx9DzGQFjCCEOzq92c9bNlLGz4vT"
+    },
+    {
       "id": 2593385,
       "name": "Lunar",
       "folder": true,
@@ -342,7 +371,7 @@
       ],
       "size": null,
       "extension": null,
-      "modified": "2026-10-03T04:49:49.000000Z",
+      "modified": "2026-10-07T05:46:22.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/3wErVY5XCCfZXDm9H84VwNSyttZ90w"
     },
@@ -366,6 +395,20 @@
       "modified": null,
       "description": null,
       "zipAsset": null
+    },
+    {
+      "id": 2640473,
+      "name": "Normal",
+      "folder": true,
+      "path": [
+        "Navi",
+        "Music"
+      ],
+      "size": null,
+      "extension": null,
+      "modified": "2026-10-07T05:44:19.000000Z",
+      "description": null,
+      "zipAsset": "https://uploadg.com/drive/s/TRA0Uow8Ef7NUQX88SQvsmjDZp5DWt"
     },
     {
       "id": 2592902,
@@ -694,6 +737,1078 @@
       "modified": "2026-10-03T06:33:52.000000Z",
       "description": null,
       "zipAsset": "https://uploadg.com/drive/s/G1zbRInstOpm6F2QiaZ63dtVC7qLDy"
+    },
+    {
+      "id": 2640496,
+      "name": "01 Title Screen.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 363421,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:19.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/GpnwQgggSu0lpDonHlgRq675WEVCmb"
+    },
+    {
+      "id": 2640497,
+      "name": "02 File Select.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2702540,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:20.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/oUZdImdx7vJdPEflJv216sgstBR90M"
+    },
+    {
+      "id": 2640499,
+      "name": "03 Introduction.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2060884,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:20.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/8eFlBH5qbqPjIbzqBlhJmN6AeR8jHc"
+    },
+    {
+      "id": 2640500,
+      "name": "04 Princess Zelda.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 9437639,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:13.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/9mASB3WmRdD5ykUxAstZg0PD2EWkQj"
+    },
+    {
+      "id": 2640501,
+      "name": "05 Festival Outskirts.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2593609,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:20.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/QyZC9rcLQX1BDLp86zWmqL1M1Bvcmt"
+    },
+    {
+      "id": 2640502,
+      "name": "06 Picori Festival.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3266966,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:36.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/gYPIkMizxlRxU7cKyAWTYxA75jsfXi"
+    },
+    {
+      "id": 2640504,
+      "name": "07 King Daltus.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 971384,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:36.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/yiklsiZA8IVmuBoul0JsvAUcp0VPF1"
+    },
+    {
+      "id": 2640506,
+      "name": "08 Vaati's Theme.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3085825,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:37.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/QmXP26rRj4Ogeuc95rzzZ1z5wk5ji9"
+    },
+    {
+      "id": 2640507,
+      "name": "09 Vaati Attacks.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3506779,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:37.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/GvQA8yH99TLARhOzUOyDuXDOhfhcr7"
+    },
+    {
+      "id": 2640508,
+      "name": "10 Hyrule Castle (w Intro).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3269688,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:37.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/CFogCVXeEBrSQ7XFet6vCcPcvw0uSr"
+    },
+    {
+      "id": 2640509,
+      "name": "10b Hyrule Castle.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2974092,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:37.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/p7vxURXCTH0Ikbg1r19Ffk6sJNlN1p"
+    },
+    {
+      "id": 2640511,
+      "name": "11 Hyrule Field.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4914950,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:37.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Cef394RKfFR8bm0FPNRJxUsAvmzkxX"
+    },
+    {
+      "id": 2640512,
+      "name": "12 Minish Woods.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3901806,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/3qBd0zKJXiovepbgujdyJXo2M7FmKR"
+    },
+    {
+      "id": 2640513,
+      "name": "13 The Minish Cap.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2092456,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/GvSgetd0cTNxr0E2FHUNhcRHhgUZVW"
+    },
+    {
+      "id": 2640514,
+      "name": "14 Danger.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 907506,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/oRlJICVHqcppLXvASO2MYT6eKdn2QW"
+    },
+    {
+      "id": 2640515,
+      "name": "15 The Journey Begins.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 263242,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:38.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/uAnbiJWhssUur3MHme65dNtFH3glSn"
+    },
+    {
+      "id": 2640516,
+      "name": "16 Minish Village.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 5268277,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:39.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/l3dZCTW5L63tDQjt5xTgXfrOvIRv3h"
+    },
+    {
+      "id": 2640517,
+      "name": "17 Inside the House.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3269844,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:39.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/aWyr8rur9HMQPyuBDvHx4rD66CKDUk"
+    },
+    {
+      "id": 2640518,
+      "name": "18 Deepwood Shrine.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3732946,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:39.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/JDbM6A7cgI2TL7UU1zgTqL15MPPbkp"
+    },
+    {
+      "id": 2640519,
+      "name": "19 Mini-Boss.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3031382,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:32.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Yeqc8h54lZr1K3JIMBnGcl9rdJabhV"
+    },
+    {
+      "id": 2640520,
+      "name": "20 Boss.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3818185,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:33.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6VSeDioyvsppdrWhC8d1uGuSSHn9ii"
+    },
+    {
+      "id": 2640521,
+      "name": "21 Element Appears.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 1289357,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/pOvIg6kRnOSgG1tQLzixDvDKQ0l681"
+    },
+    {
+      "id": 2640522,
+      "name": "22 Element Received.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 512629,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/vpIWMKoKN36Jy1Yt4MudTMm1kv4eMk"
+    },
+    {
+      "id": 2640523,
+      "name": "23 Fairy Fountain.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2605807,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:35.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6RbP3mfdXJCQytriezFGA7Eo8aKErU"
+    },
+    {
+      "id": 2640524,
+      "name": "24 Hyrule Town.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 5244923,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:55.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/5yADOPrRL01uSrOC8nXJBI4ScItHrY"
+    },
+    {
+      "id": 2640527,
+      "name": "25 Cucco Chase.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 1809135,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:56.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/6me8TKxViq1wNohHA07c78drC5TEBc"
+    },
+    {
+      "id": 2640529,
+      "name": "26 Training.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 875146,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:56.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Bi71RmiAGEcT2teiUhj0oB8UTd9QOC"
+    },
+    {
+      "id": 2640530,
+      "name": "27 Training Complete.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 921460,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/GWno5t0Icb1PRcv47C1ohpOCS8vHil"
+    },
+    {
+      "id": 2640531,
+      "name": "28 Mt. Crenel.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4724326,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/8THclQ6O5LSTgWHMpBcJOVWvIjmRUt"
+    },
+    {
+      "id": 2640532,
+      "name": "29 Cave.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2750927,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/h3Jn4hWyptmk47DXaDhEYdksjqsvgn"
+    },
+    {
+      "id": 2640533,
+      "name": "30 Great Fairy Fountain.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 5111435,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/z75dmcqKksd6fs15nPbqm6lCik6JJP"
+    },
+    {
+      "id": 2640535,
+      "name": "31 Mt. Crenel Summit.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 5838921,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ojvNRzS0fgNStPRDRdrElxlzrynirw"
+    },
+    {
+      "id": 2640536,
+      "name": "32 Cave of Flames.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4344465,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ITLKpGLyIYiNdi9GdtLr7oaSfb1gZA"
+    },
+    {
+      "id": 2640537,
+      "name": "33 Game Over.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2928385,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:57.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/sZINB9Djclk4YtvqJ4OdHg1cIA5PqK"
+    },
+    {
+      "id": 2640538,
+      "name": "34 Elemental Sanctuary.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3272617,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/DJuF3B75hDs7IjMJxfBqRGhOB1W7CM"
+    },
+    {
+      "id": 2640539,
+      "name": "35 Flashback.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2416774,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/HRHU4HAJSesazsJOZTe1RqZ4x3nTw0"
+    },
+    {
+      "id": 2640540,
+      "name": "36 Royal Orders (Cave 2).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 1827974,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ziHufLPfNyC8nc3LwSWdY2Yk2d4KY4"
+    },
+    {
+      "id": 2640541,
+      "name": "37 Castor Wilds.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3836204,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/onFWNNBHl5B40CN8lU0StQt0p7d3xC"
+    },
+    {
+      "id": 2640542,
+      "name": "38 Malon.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 78311,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:58.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Fzroiin7fq50ksNhfgMFQvPRFYNDTN"
+    },
+    {
+      "id": 2640543,
+      "name": "39 Syrup the Witch.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 1577298,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:59.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ZhP3w111GAkhbBujwKtyJPrMwgEG5u"
+    },
+    {
+      "id": 2640544,
+      "name": "40 Wind Ruins.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4939613,
+      "extension": "flac",
+      "modified": "2026-10-07T05:45:54.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/TcV4pINFMjCnQBkObX9n1k8sN1rNSB"
+    },
+    {
+      "id": 2640545,
+      "name": "41 Fortress of Winds.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3461851,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:15.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/w43Qk9FjXo6aWWQFvvjh0JH1WXnJ1L"
+    },
+    {
+      "id": 2640546,
+      "name": "42 Ocarina of Wind.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 150529,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:15.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/o8gnfsWpqIPRXVdFcA8sp6qdpHnOGV"
+    },
+    {
+      "id": 2640547,
+      "name": "43 Into the Skies.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3658379,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:15.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/h3gVS180LZd4SJcm6Gric8Bmz2eCfE"
+    },
+    {
+      "id": 2640548,
+      "name": "44 Temple of Droplets.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 7751380,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:15.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/Y6f8jDvwaVY4xmHPNL8lVjGjEEXZBn"
+    },
+    {
+      "id": 2640549,
+      "name": "45 Secret Tunnel.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2327058,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/YkgsYd0MvDDPXm12V8jBzDLMJLlfEi"
+    },
+    {
+      "id": 2640550,
+      "name": "46 Royal Valley.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4890387,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/3mcOjrtgPJVx0tqMPzg6D8GMvXkNee"
+    },
+    {
+      "id": 2640551,
+      "name": "47 Royal Crypt.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4191303,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ypo6z5EZa8bJfgrrVu0tMZgO5JKAKy"
+    },
+    {
+      "id": 2640552,
+      "name": "48 Cloud Tops.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 8457005,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/3O1eWca7GsrDz8KSYuGGWrB6ISxmYd"
+    },
+    {
+      "id": 2640554,
+      "name": "49 Palace of Winds.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 7830873,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/7kWURLSpkQLxDaAscleQi1Wk1ZE9gz"
+    },
+    {
+      "id": 2640555,
+      "name": "50 Hurry!.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2370952,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/OLRqL3NL5daAi6xJTOiHXfFQyhFxmV"
+    },
+    {
+      "id": 2640556,
+      "name": "51 Dark Hyrule Castle.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 8080871,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:16.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/F2tYgN7kSt4d0mhWTwZfJEZGm5LuPi"
+    },
+    {
+      "id": 2640557,
+      "name": "52 Vaati Battle.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 3897028,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:17.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/kpnD6v3AyYHlVjmuGRM0zec87THU2I"
+    },
+    {
+      "id": 2640558,
+      "name": "53 Zelda Awakens.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 2475571,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:17.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/oG3k8XroXOeRpzq23sNA4WUIB8iXiD"
+    },
+    {
+      "id": 2640560,
+      "name": "54 Vaati's Wrath.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 5493223,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:17.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/ZAR9DnkAzx989K9OnOWedgZggDw6yZ"
+    },
+    {
+      "id": 2640561,
+      "name": "55 The Journey Ends.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4262423,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:17.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/E4nTIdVcT8i60FzQCRoS3yBAD18QXb"
+    },
+    {
+      "id": 2640562,
+      "name": "56 A Kingdom Restored.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 9393059,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:33.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/xbbcBcJJMJLER5WoOAjVEOCkq65sLe"
+    },
+    {
+      "id": 2640565,
+      "name": "57 Credits.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 10598770,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/pSgkdv2dnnSikl6z9NHyPy54MUu2A4"
+    },
+    {
+      "id": 2640566,
+      "name": "58 Get Item.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 147507,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/qU4eeBB33yApCljzU1s2y3og8ilC9X"
+    },
+    {
+      "id": 2640567,
+      "name": "59 Secret.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 85324,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/zPCQptADLe7y3YDlhsBmYxu2WpMokv"
+    },
+    {
+      "id": 2640568,
+      "name": "60 Special Secret.flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 179710,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/lyE4x0IpuNxwHEvAtc03T6c1yPVm98"
+    },
+    {
+      "id": 2640569,
+      "name": "91 Dark Hyrule Castle Intro (Unused).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 277911,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/22qeqj15AjTnMi6GVomwHbfLTYVWeQ"
+    },
+    {
+      "id": 2640570,
+      "name": "92 Vaati Intro (Unused).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 188255,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:35.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/9LeVrnxnd7ikhSHuEn8Hu2P2gBN42e"
+    },
+    {
+      "id": 2640571,
+      "name": "93 Link to the Past Title (Unused).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 533141,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:34.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/zDJKWYQ29OSknpmRHAx005siiSfqcr"
+    },
+    {
+      "id": 2640572,
+      "name": "94 Lost Woods (Unused).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 4301632,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:35.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/P0KJfTQt06Vjyw9hGGbFFwpsW79Chu"
+    },
+    {
+      "id": 2640573,
+      "name": "95 Get Small Item (Unused).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 153277,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:35.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/4HS3yB3FMrEU9HHXx3S8Rry5xe2XbL"
+    },
+    {
+      "id": 2640574,
+      "name": "96 Discovery (Unused).flac",
+      "folder": false,
+      "path": [
+        "Navi",
+        "Music",
+        "Game Soundtracks",
+        "Legend of Zelda - The Minish Cap"
+      ],
+      "size": 46260,
+      "extension": "flac",
+      "modified": "2026-10-07T05:46:35.000000Z",
+      "description": null,
+      "downloadUrl": "https://uploadg.com/drive/s/D7E8uLprpMYFmf3gVzPJ047Ib3Etxf"
     },
     {
       "id": 2592519,
@@ -3145,5 +4260,5 @@
     }
   ],
   "rootZip": null,
-  "generated": "2026-10-07T05:43:49.082Z"
+  "generated": "2026-10-07T06:00:42.622Z"
 }
